@@ -90,11 +90,17 @@ recipes.addShapeless(<natura:nether_planks:2> * 2, [<natura:nether_logs:1>]);
 recipes.addShapeless(<natura:nether_planks:3> * 2, [<natura:nether_logs:2>]);
 recipes.addShapeless(<techreborn:rubber_planks> * 2, [<techreborn:rubber_log>]);
 recipes.addShapeless(<traverse:fir_planks> * 2, [<traverse:fir_log>]);
+recipes.addShapeless(<minecraft:planks:5> * 2, [<twilightforest:twilight_log:3>]);
+recipes.addShapeless(<minecraft:planks:2> * 2, [<twilightforest:twilight_log:2>]);
+recipes.addShapeless(<minecraft:planks:1> * 2, [<twilightforest:twilight_log:1>]);
+recipes.addShapeless(<minecraft:planks> * 2, [<twilightforest:twilight_log>]);
+recipes.addShapeless(<thaumcraft:plank_silverwood> * 2, [<thaumcraft:log_silverwood>]);
+recipes.addShapeless(<thaumcraft:plank_greatwood> * 2, [<thaumcraft:log_greatwood>]);
 
 #Sticks
 recipes.remove(<minecraft:stick>);
-recipes.addShapeless(<ore:stickWood> * 2, [<ore:plankWood>,<ore:plankWood>]);
-recipes.addShapeless(<ore:stickWood> * 4, [<ore:logWood>,<ore:logWood>]);
+recipes.addShapeless(<minecraft:stick> * 2, [<ore:plankWood>,<ore:plankWood>]);
+recipes.addShapeless(<minecraft:stick> * 4, [<ore:logWood>,<ore:logWood>]);
 
 #Logs and Planks (Sawmill)
 mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log>);
@@ -271,6 +277,12 @@ mods.thermalexpansion.Sawmill.addRecipe(<natura:nether_planks:0> * 4,  <natura:n
 mods.thermalexpansion.Sawmill.addRecipe(<natura:nether_planks:1> * 4,  <natura:nether_logs2:0>, 1500, <thermalfoundation:material:800>, 50);
 mods.thermalexpansion.Sawmill.addRecipe(<natura:nether_planks:2> * 4,  <natura:nether_logs:1>, 1500, <thermalfoundation:material:800>, 50);
 mods.thermalexpansion.Sawmill.addRecipe(<natura:nether_planks:3> * 4,  <natura:nether_logs:2>, 1500, <thermalfoundation:material:800>, 50);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks> * 4, <twilightforest:twilight_log>, 1500, <thermalfoundation:material:800>, 20);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:1> * 4, <twilightforest:twilight_log:1>, 1500, <thermalfoundation:material:800>, 20);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:2> * 4, <twilightforest:twilight_log:2>, 1500, <thermalfoundation:material:800>, 20);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:5> * 4, <twilightforest:twilight_log:3>, 1500, <thermalfoundation:material:800>, 20);
+mods.thermalexpansion.Sawmill.addRecipe(<thaumcraft:plank_silverwood> * 4, <thaumcraft:log_silverwood>, 1500, <thermalfoundation:material:800>, 20);
+mods.thermalexpansion.Sawmill.addRecipe(<thaumcraft:plank_greatwood> * 4, <thaumcraft:log_greatwood>, 1500, <thermalfoundation:material:800>, 20);
 
 #Tech Reborn Sawmill
 mods.techreborn.industrialSawmill.addRecipe(<minecraft:planks> * 6, <thermalfoundation:material:800>, null, <minecraft:log>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
@@ -360,10 +372,23 @@ mods.techreborn.industrialSawmill.addRecipe(<natura:nether_planks:2> * 6, <therm
 mods.techreborn.industrialSawmill.addRecipe(<natura:nether_planks:3> * 6, <thermalfoundation:material:800>, null, <natura:nether_logs:2>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
 mods.techreborn.industrialSawmill.addRecipe(<techreborn:rubber_planks> * 6, <thermalfoundation:material:800>, null, <techreborn:rubber_log>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
 mods.techreborn.industrialSawmill.addRecipe(<traverse:fir_planks> * 6, <thermalfoundation:material:800>, null, <traverse:fir_log>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
+mods.techreborn.industrialSawmill.addRecipe(<minecraft:planks> * 6, <thermalfoundation:material:800>, null, <twilightforest:twilight_log>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
+mods.techreborn.industrialSawmill.addRecipe(<minecraft:planks:1> * 6, <thermalfoundation:material:800>, null, <twilightforest:twilight_log:1>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
+mods.techreborn.industrialSawmill.addRecipe(<minecraft:planks:2> * 6, <thermalfoundation:material:800>, null, <twilightforest:twilight_log:2>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
+mods.techreborn.industrialSawmill.addRecipe(<minecraft:planks:5> * 6, <thermalfoundation:material:800>, null, <twilightforest:twilight_log:3>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
+mods.techreborn.industrialSawmill.addRecipe(<thaumcraft:plank_silverwood> * 6, <thermalfoundation:material:800>, null, <thaumcraft:log_silverwood>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
+mods.techreborn.industrialSawmill.addRecipe(<thaumcraft:plank_greatwood> * 6, <thermalfoundation:material:800>, null, <thaumcraft:log_greatwood>, <liquid:water> * 500, 300, 40).setUseOreDict(false);
 
 #Kepler 22b Wood
 <ore:plankWood>.add(<extraplanets:kepler22b_planks>, <extraplanets:kepler22b_planks:1>, <extraplanets:kepler22b_planks:2>, <extraplanets:kepler22b_planks:3>, <extraplanets:kepler22b_planks:4>, <extraplanets:kepler22b_planks:5>);
 <ore:logWood>.add(<extraplanets:kepler22b_maple_logs>, <extraplanets:kepler22b_maple_logs:1>, <extraplanets:kepler22b_maple_logs:2>, <extraplanets:kepler22b_maple_logs:3>, <extraplanets:kepler22b_maple_logs2>, <extraplanets:kepler22b_maple_logs2:1>);
+recipes.addShapeless(<extraplanets:kepler22b_planks:3> * 4, [<extraplanets:kepler22b_maple_logs:3>]);
+recipes.addShapeless(<extraplanets:kepler22b_planks:5> * 4, [<extraplanets:kepler22b_maple_logs2:1>]);
+recipes.addShapeless(<extraplanets:kepler22b_planks:4> * 4, [<extraplanets:kepler22b_maple_logs2>]);
+recipes.addShapeless(<extraplanets:kepler22b_planks:2> * 4, [<extraplanets:kepler22b_maple_logs:2>]);
+recipes.addShapeless(<extraplanets:kepler22b_planks:1> * 4, [<extraplanets:kepler22b_maple_logs:1>]);
+recipes.addShapeless(<extraplanets:kepler22b_planks> * 4, [<extraplanets:kepler22b_maple_logs>]);
+recipes.addShaped(<extraplanets:kepler22b_planks>, [[<extraplanets:kepler22b_maple_logs>, null, null],[null, null, null], [null, null, null]]);
 <extraplanets:kepler22b_planks>.addTooltip("All Kepler 22b Wood crafts into 4 planks in a Crafting Table. Their output cannot be increased in either Sawmill.");
 <extraplanets:kepler22b_planks:1>.addTooltip("All Kepler 22b Wood crafts into 4 planks in a Crafting Table. Their output cannot be increased in either Sawmill.");
 <extraplanets:kepler22b_planks:2>.addTooltip("All Kepler 22b Wood crafts into 4 planks in a Crafting Table. Their output cannot be increased in either Sawmill.");
