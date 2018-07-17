@@ -52,3 +52,5 @@ fonts/
 \.mixin\.out/
 
 astralsorcery/
+
+minecraftinstance.json

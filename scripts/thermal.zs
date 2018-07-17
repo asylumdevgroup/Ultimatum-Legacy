@@ -36,7 +36,7 @@ mods.jei.JEI.hide(<thermalexpansion:frame:146>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:802>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:storage_resource:1>);
 
-#No Block of Charcoal (Use AAs)
+#No Block of Charcoal (Use Rockhoundings)
 mods.jei.JEI.removeAndHide(<thermalfoundation:storage_resource>);
 
 #Remove Strongbox
@@ -72,23 +72,6 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_nickel>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_aluminum>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_lead>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shield_silver>);
-
-#Remove Sickles (Use ExU2)
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_silver>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_tin>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_copper>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_invar>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_bronze>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_constantan>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_diamond>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_iron>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_gold>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_electrum>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_steel>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_platinum>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_nickel>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_aluminum>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_lead>);
 
 #Remove Fishing Rods
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.fishing_rod_steel>);

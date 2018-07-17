@@ -1,4 +1,4 @@
-16981 nodes in total
+16994 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1864,6 +1864,10 @@ ftbutilities.claims.block.edit.extrautils2.drum: OP
 ftbutilities.claims.block.edit.extrautils2.enderlilly: OP
 ftbutilities.claims.block.edit.extrautils2.indexer: OP
 ftbutilities.claims.block.edit.extrautils2.ineffableglass: OP
+ftbutilities.claims.block.edit.extrautils2.ironwood_leaves: OP
+ftbutilities.claims.block.edit.extrautils2.ironwood_log: OP
+ftbutilities.claims.block.edit.extrautils2.ironwood_planks: OP
+ftbutilities.claims.block.edit.extrautils2.ironwood_sapling: OP
 ftbutilities.claims.block.edit.extrautils2.klein: OP
 ftbutilities.claims.block.edit.extrautils2.largishchest: OP
 ftbutilities.claims.block.edit.extrautils2.machine: OP
@@ -6407,6 +6411,10 @@ ftbutilities.claims.block.interact.extrautils2.drum: OP
 ftbutilities.claims.block.interact.extrautils2.enderlilly: OP
 ftbutilities.claims.block.interact.extrautils2.indexer: OP
 ftbutilities.claims.block.interact.extrautils2.ineffableglass: OP
+ftbutilities.claims.block.interact.extrautils2.ironwood_leaves: OP
+ftbutilities.claims.block.interact.extrautils2.ironwood_log: OP
+ftbutilities.claims.block.interact.extrautils2.ironwood_planks: OP
+ftbutilities.claims.block.interact.extrautils2.ironwood_sapling: OP
 ftbutilities.claims.block.interact.extrautils2.klein: OP
 ftbutilities.claims.block.interact.extrautils2.largishchest: OP
 ftbutilities.claims.block.interact.extrautils2.machine: OP
@@ -11955,6 +11963,10 @@ ftbutilities.claims.item.extrautils2.indexer: ALL
 ftbutilities.claims.item.extrautils2.indexerremote: ALL
 ftbutilities.claims.item.extrautils2.ineffableglass: ALL
 ftbutilities.claims.item.extrautils2.ingredients: ALL
+ftbutilities.claims.item.extrautils2.ironwood_leaves: ALL
+ftbutilities.claims.item.extrautils2.ironwood_log: ALL
+ftbutilities.claims.item.extrautils2.ironwood_planks: ALL
+ftbutilities.claims.item.extrautils2.ironwood_sapling: ALL
 ftbutilities.claims.item.extrautils2.itembuilderswand: ALL
 ftbutilities.claims.item.extrautils2.itemcreativebuilderswand: ALL
 ftbutilities.claims.item.extrautils2.itemcreativedestructionwand: ALL
@@ -11962,6 +11974,7 @@ ftbutilities.claims.item.extrautils2.itemdestructionwand: ALL
 ftbutilities.claims.item.extrautils2.klein: ALL
 ftbutilities.claims.item.extrautils2.largishchest: ALL
 ftbutilities.claims.item.extrautils2.lawsword: ALL
+ftbutilities.claims.item.extrautils2.luxsaber: ALL
 ftbutilities.claims.item.extrautils2.machine: ALL
 ftbutilities.claims.item.extrautils2.magicapple: ALL
 ftbutilities.claims.item.extrautils2.miner: ALL
