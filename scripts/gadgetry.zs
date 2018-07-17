@@ -9,9 +9,10 @@
 #Rename Silicon
 <gadgetrycore:silicon>.displayName = "Voltaic Panel";
 
-#Analog Circuit Recipe Change
+#Analog Circuit
 recipes.remove(<gadgetrymachines:circuit>);
 recipes.addShaped(<gadgetrymachines:circuit>, [[<ore:nuggetGold>, <ore:nuggetRedmetal>, <ore:nuggetGold>],[<ore:nuggetRedmetal>, <ore:ingotSteel>, <ore:nuggetRedmetal>], [<ore:nuggetGold>, <ore:nuggetRedmetal>, <ore:nuggetGold>]]);
+<ore:circuitBasic>.remove(<gadgetrymachines:circuit>);
 
 #Alloy Furnace
 recipes.remove(<gadgetrycore:alloy_furnace>);
@@ -35,7 +36,7 @@ recipes.addShaped(<gadgetrymachines:solar_panel>, [[<gadgetrycore:silicon>, <gad
 
 #Fluid Tank
 recipes.remove(<gadgetrymachines:fluid_tank>);
-recipes.addShaped(<gadgetrymachines:fluid_tank>, [[<ore:ingotSteel>, <ore:blockGlassColorless>, <ore:ingotSteel>],[<ore:blockGlassColorless>, <minecraft:bucket>, <ore:blockGlassColorless>], [<ore:blockSteel>, <ore:blockGlassColorless>, <ore:blockSteel>]]);
+recipes.addShaped(<gadgetrymachines:fluid_tank>, [[<ore:ingotSteel>, <ore:blockGlassColorless>, <ore:ingotSteel>],[<ore:blockGlassColorless>, <minecraft:bucket>, <ore:blockGlassColorless>], [<ore:ingotSteel>, <ore:blockGlassColorless>, <ore:ingotSteel>]]);
 
 #Everything Else Being Hidden/Removed
 mods.jei.JEI.removeAndHide(<gadgetrymachines:pump>);
