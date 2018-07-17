@@ -2,9 +2,9 @@
 #By CJWilk
 
 #No Ore-Dict for Silicon
-<itemSilicon>.remove(<gadgetrycore:silicon>);
-<matSilicon>.remove(<gadgetrycore:silicon>);
-<silicon>.remove(<gadgetrycore:silicon>);
+<ore:itemSilicon>.remove(<gadgetrycore:silicon>);
+<ore:matSilicon>.remove(<gadgetrycore:silicon>);
+<ore:silicon>.remove(<gadgetrycore:silicon>);
 
 #Rename Silicon
 <gadgetrycore:silicon>.displayName = "Voltaic Panel";
