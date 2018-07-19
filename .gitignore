@@ -56,3 +56,5 @@ astralsorcery/
 minecraftinstance.json
 
 mods/
+
+scripts/recipes.zs

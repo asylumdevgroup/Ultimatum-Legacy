@@ -1,4 +1,4 @@
-#gadgetry.zs
+#Gadgetry.zs
 #By CJWilk
 
 #No Ore-Dict for Silicon

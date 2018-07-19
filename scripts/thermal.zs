@@ -1,4 +1,4 @@
-#thermal.zs
+#Thermal.zs
 #By CJWilk
 
 #No Coins + Coin Augment

@@ -1,4 +1,4 @@
-#enderio.zs
+#EnderIO.zs
 #By CJWilk
 
 #No Alloys in TiC Smeltery

@@ -1,4 +1,4 @@
-#vanilla.zs
+#Vanilla.zs
 #By MCAdventureCity and CJWilk
 
 #Stone tool Removals
