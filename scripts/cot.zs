@@ -14,15 +14,15 @@ import mods.contenttweaker.MaterialPart;
 
 //Material System - Overworld Ores
 var iron = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iron").setColor(11974326).build();
-var gold = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Gold").setColor(14605824).build();
+var gold = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16580431).build();
 var copper = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Copper").setColor(13007132).build();
 var tin = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Tin").setColor(12373468).build();
-var silver = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Silver").setColor(15397362).build();
+var silver = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Silver").setColor(12374747).build();
 var lead = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Lead").setColor(4476003).build();
 var aluminum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Aluminum").setColor(15263987).build();
-var nickel = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(16579789).build();
+var nickel = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(15723948).build();
 var platinum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(7332599).build();
-var uranium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(5002563).build();
+var uranium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(8031340).build();
 var titanium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(13290452).build();
 
 //Material System - Nether Ores
@@ -31,19 +31,19 @@ var ardite = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Ar
 
 //Material System - Alloys
 var steel = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Steel").setColor(8026746).build();
-var electrum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(16314245).build();
-var invar = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9279636).build();  
-var bronze = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(11232794).build();  
+var electrum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(16574319).build();
+var invar = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Invar").setColor(11581621).build();  
+var bronze = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(12877619).build();  
 var constantan = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Constantan").setColor(13082455).build();  
 var signalum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Signalum").setColor(14826752).build();    
-var lumium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Lumium").setColor(14607768).build();  
+var lumium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Lumium").setColor(14870930).build();  
 var enderium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Enderium").setColor(943719).build();
-var manyullyn = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Manyullyn").setColor(6959770).build();
+var manyullyn = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Manyullyn").setColor(8017305).build();
 var brass = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Brass").setColor(14592052).build();
 var tungstensteel = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Tungstensteel").setColor(5135720).build();
-var refinedIron = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Refined Iron").setColor(11517123).build();
-var redmetal = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Redmetal").setColor(15092535).build();
-var chrome = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Chrome").setColor(13482429).build();
+var refinedIron = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Refined Iron").setColor(14212833).build();
+var redmetal = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Redmetal").setColor(16733245).build();
+var chrome = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Chrome").setColor(14076107).build();
 var zinc = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(14935521).build();
 var tungsten = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(6383209).build();
 var iridium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(13092316).build();
@@ -158,9 +158,9 @@ for i, alloy3 in alloys3 {
     blockAlloyData3.addDataValue("harvestLevel", "3");
 }
 
-for i, netherAlloyLoop in netherAlloy {
-	netherAlloyLoop.registerParts(parts);
-	var blockNetherAlloyData = netherAlloyLoop.registerPart("block").getData();
+for i, netherAlloy in netherAlloy {
+	netherAlloy.registerParts(parts);
+	var blockNetherAlloyData = netherAlloy.registerPart("block").getData();
 	blockNetherAlloyData.addDataValue("hardness", "20");
     blockNetherAlloyData.addDataValue("resistance", "45");
     blockNetherAlloyData.addDataValue("harvestTool", "pickaxe");
