@@ -57,6 +57,7 @@ var netherMetals = [ardite, cobalt] as Material[];
 var alloys1 = [bronze, redmetal, refinedIron, brass, zinc] as Material[];
 var alloys2 = [steel, electrum, invar, constantan, signalum, lumium, chrome] as Material[];
 var alloys3 = [enderium, tungstensteel, tungsten, iridium, mithril] as Material[];
+var netherAlloy = [manyullyn] as Material[];
 var parts = ["ingot", "dust", "gear", "nugget", "plate", "rod"] as string[];
 var oreTypes1 = ["dense_ore", "ore"] as string[];
 
@@ -132,7 +133,7 @@ for i, netherMetal in netherMetals {
 
 for i, alloy1 in alloys1 {
     alloy1.registerParts(parts);
-    var blockAlloyData1 = metal1.registerPart("block").getData();
+    var blockAlloyData1 = alloy1.registerPart("block").getData();
     blockAlloyData1.addDataValue("hardness", "5");
     blockAlloyData1.addDataValue("resistance", "30");
     blockAlloyData1.addDataValue("harvestTool", "pickaxe");
@@ -141,8 +142,7 @@ for i, alloy1 in alloys1 {
 
 for i, alloy2 in alloys2 {  
     alloy2.registerParts(parts);
-
-    var blockAlloyData2 = metal2.registerPart("block").getData();
+    var blockAlloyData2 = alloy2.registerPart("block").getData();
     blockAlloyData2.addDataValue("hardness", "10");
     blockAlloyData2.addDataValue("resistance", "35");
     blockAlloyData2.addDataValue("harvestTool", "pickaxe");
@@ -151,10 +151,18 @@ for i, alloy2 in alloys2 {
 
 for i, alloy3 in alloys3 {  
     alloy3.registerParts(parts);
-
-    var blockAlloyData3 = metal3.registerPart("block").getData();
+    var blockAlloyData3 = alloy3.registerPart("block").getData();
     blockAlloyData3.addDataValue("hardness", "15");
     blockAlloyData3.addDataValue("resistance", "40");
     blockAlloyData3.addDataValue("harvestTool", "pickaxe");
     blockAlloyData3.addDataValue("harvestLevel", "3");
+}
+
+for i, netherAlloyLoop in netherAlloy {
+	netherAlloyLoop.registerParts(parts);
+	var blockNetherAlloyData = netherAlloyLoop.registerPart("block").getData();
+	blockNetherAlloyData.addDataValue("hardness", "20");
+    blockNetherAlloyData.addDataValue("resistance", "45");
+    blockNetherAlloyData.addDataValue("harvestTool", "pickaxe");
+    blockNetherAlloyData.addDataValue("harvestLevel", "4");
 }
