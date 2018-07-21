@@ -1,3 +1,38 @@
 {
-  "savedSubBlockNames": {}
+  "savedSubBlockNames": {
+    "0": {
+      "0": "aluminum_block",
+      "1": "copper_ore_minecraft_stone",
+      "2": "aluminum_dense_ore_minecraft_stone",
+      "3": "tin_dense_ore_minecraft_stone",
+      "4": "iron_block",
+      "5": "iron_dense_ore_minecraft_stone",
+      "6": "platinum_ore_minecraft_stone",
+      "7": "ardite_block",
+      "8": "platinum_block",
+      "9": "uranium_ore_minecraft_stone",
+      "10": "nickel_block",
+      "11": "copper_block",
+      "12": "tin_block",
+      "13": "lead_block",
+      "14": "aluminum_ore_minecraft_stone",
+      "15": "silver_ore_minecraft_stone"
+    },
+    "1": {
+      "0": "silver_block",
+      "1": "nickel_ore_minecraft_stone",
+      "2": "titanium_block",
+      "3": "copper_dense_ore_minecraft_stone",
+      "4": "cobalt_block",
+      "5": "lead_ore_minecraft_stone",
+      "6": "uranium_block",
+      "7": "cobalt_ore_minecraft_netherrack",
+      "8": "gold_ore_minecraft_stone",
+      "9": "tin_ore_minecraft_stone",
+      "10": "gold_block",
+      "11": "titanium_ore_minecraft_stone",
+      "12": "ardite_ore_minecraft_netherrack",
+      "13": "iron_ore_minecraft_stone"
+    }
+  }
 }

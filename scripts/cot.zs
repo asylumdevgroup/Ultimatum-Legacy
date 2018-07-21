@@ -1,5 +1,8 @@
 #loader contenttweaker
+//cot.zs
+//By Kaperios (CJWilk did some Copy-Pasting too :p)
 
+//imports
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 import mods.contenttweaker.VanillaFactory;
@@ -9,8 +12,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.MaterialBuilder;
 import mods.contenttweaker.MaterialPart;
 
-//Material System
-
+//Material System - Overworld Ores
 var iron = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iron").setColor(11974326).build();
 var gold = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Gold").setColor(14605824).build();
 var copper = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Copper").setColor(13007132).build();
@@ -23,9 +25,11 @@ var platinum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("
 var uranium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(5002563).build();
 var titanium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(13290452).build();
 
+//Material System - Nether Ores
 var cobalt = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(1925816).build();
 var ardite = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(12137751).build();  
 
+//Material System - Alloys
 var steel = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Steel").setColor(8026746).build();
 var electrum = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(16314245).build();
 var invar = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9279636).build();  
@@ -45,6 +49,7 @@ var tungsten = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("
 var iridium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(13092316).build();
 var mithril = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Mithril").setColor(6592956).build();
 
+//Strings
 var metals1 = [copper, tin, iron, aluminum] as Material[];
 var metals2 = [silver, lead, nickel, gold, uranium] as Material[];
 var metals3 = [platinum, titanium] as Material[];
@@ -55,6 +60,7 @@ var alloys3 = [enderium, tungstensteel, tungsten, iridium, mithril] as Material[
 var parts = ["ingot", "dust", "gear", "nugget", "plate", "rod"] as string[];
 var oreTypes1 = ["dense_ore", "ore"] as string[];
 
+//Loops
 for i, metal1 in metals1 {
     metal1.registerParts(parts);
     var ores1 = metal1.registerParts(oreTypes1);
@@ -122,4 +128,33 @@ for i, netherMetal in netherMetals {
     blockDataNether.addDataValue("resistance", "45");
     blockDataNether.addDataValue("harvestTool", "pickaxe");
     blockDataNether.addDataValue("harvestLevel", "4");
+}
+
+for i, alloy1 in alloys1 {
+    alloy1.registerParts(parts);
+    var blockAlloyData1 = metal1.registerPart("block").getData();
+    blockAlloyData1.addDataValue("hardness", "5");
+    blockAlloyData1.addDataValue("resistance", "30");
+    blockAlloyData1.addDataValue("harvestTool", "pickaxe");
+    blockAlloyData1.addDataValue("harvestLevel", "1");
+}
+
+for i, alloy2 in alloys2 {  
+    alloy2.registerParts(parts);
+
+    var blockAlloyData2 = metal2.registerPart("block").getData();
+    blockAlloyData2.addDataValue("hardness", "10");
+    blockAlloyData2.addDataValue("resistance", "35");
+    blockAlloyData2.addDataValue("harvestTool", "pickaxe");
+    blockAlloyData2.addDataValue("harvestLevel", "2");
+}
+
+for i, alloy3 in alloys3 {  
+    alloy3.registerParts(parts);
+
+    var blockAlloyData3 = metal3.registerPart("block").getData();
+    blockAlloyData3.addDataValue("hardness", "15");
+    blockAlloyData3.addDataValue("resistance", "40");
+    blockAlloyData3.addDataValue("harvestTool", "pickaxe");
+    blockAlloyData3.addDataValue("harvestLevel", "3");
 }
