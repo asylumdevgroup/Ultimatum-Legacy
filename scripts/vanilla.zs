@@ -35,5 +35,4 @@ furnace.remove(<thermalfoundation:material:135>);
 furnace.remove(<thermalfoundation:material:134>);
 furnace.remove(<minecraft:iron_ingot>);
 furnace.remove(<thermalfoundation:material:128>);
-furnace.remove(<techreborn:ingot:19>);
 

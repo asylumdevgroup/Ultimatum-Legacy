@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
     "machine": "alloy_furnace",
     "registryName": "alloy_furnace_diamond",
@@ -27,4 +28,35 @@
             "amount": 8
         }
     ]
+=======
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_diamond",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:diamond",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:coal",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:tnt",
+            "amount": 8
+        }
+    ]
+>>>>>>> Stashed changes
 }

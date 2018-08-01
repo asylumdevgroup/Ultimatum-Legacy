@@ -720,6 +720,7 @@ forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 forestry:book_forester, Forester's Manual
 =======
 forestry:engine_peat:0, Peat-fired Engine
@@ -852,6 +853,8 @@ forestry:camouflage_spray_can, Camouflage Spray Can
 forestry:genetic_filter:0, Genetic Filter
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 forestry:bottler:0, Bottler
 forestry:carpenter:0, Carpenter
 forestry:centrifuge:0, Centrifuge
@@ -862,6 +865,141 @@ forestry:still:0, Still
 forestry:rainmaker:0, Rainmaker
 forestry:fabricator:0, Thermionic Fabricator
 forestry:raintank:0, Rain Tank
+forestry:habitat_locator, Habitat Locator
+forestry:imprinter, Imprinter
+forestry:cart.beehouse:0, Minecart with Bee House
+forestry:cart.beehouse:1, Minecart with Apiary
+forestry:frame_untreated, Untreated Frame
+forestry:frame_impregnated, Impregnated Frame
+forestry:frame_proven, Proven Frame
+forestry:honey_drop:0, Honey Drop
+forestry:pollen:0, Pollen Cluster
+forestry:pollen:1, Crystalline Pollen Cluster
+forestry:propolis:0, Propolis
+forestry:propolis:1, Sticky Propolis
+forestry:propolis:3, Silky Propolis
+forestry:honeydew, Honeydew
+forestry:royal_jelly, Royal Jelly
+forestry:wax_cast, Wax Cast
+forestry:bee_combs:0, Honey Comb
+forestry:bee_combs:2, Simmering Comb
+forestry:bee_combs:3, Stringy Comb
+forestry:bee_combs:4, Frozen Comb
+forestry:bee_combs:5, Dripping Comb
+forestry:bee_combs:6, Silky Comb
+forestry:bee_combs:7, Parched Comb
+forestry:bee_combs:15, Mossy Comb
+forestry:bee_combs:16, Mellow Comb
+forestry:apiarist_helmet, Apiarist's Hat
+forestry:apiarist_chest, Apiarist's Shirt
+forestry:apiarist_legs, Apiarist's Pants
+forestry:apiarist_boots, Apiarist's Shoes
+forestry:scoop, Scoop
+forestry:smoker, Bee Smoker
+forestry:apiary:0, Apiary
+forestry:bee_house:0, Bee House
+forestry:bee_chest:0, Apiarist's Chest
+forestry:beehives:0, Forest Hive
+forestry:beehives:1, Meadows Hive
+forestry:beehives:2, Modest Hive
+forestry:beehives:3, Tropical Hive
+forestry:beehives:4, Ender Hive
+forestry:beehives:5, Wintry Hive
+forestry:beehives:6, Marshy Hive
+forestry:candle:0, Unlit Candle
+forestry:stump:0, Candle Stump
+forestry:bee_combs_0:0, Honey Comb Block
+forestry:bee_combs_0:2, Simmering Comb Block
+forestry:bee_combs_0:3, Stringy Comb Block
+forestry:bee_combs_0:4, Frozen Comb Block
+forestry:bee_combs_0:5, Dripping Comb Block
+forestry:bee_combs_0:6, Silky Comb Block
+forestry:bee_combs_0:7, Parched Comb Block
+forestry:bee_combs_0:15, Mossy Comb Block
+forestry:bee_combs_1:0, Mellow Comb Block
+forestry:alveary.plain:0, Alveary
+forestry:alveary.swarmer:0, Alveary Swarmer
+forestry:alveary.fan:0, Alveary Fan
+forestry:alveary.heater:0, Alveary Heater
+forestry:alveary.hygro:0, Alveary Hygroregulator
+forestry:alveary.stabiliser:0, Alveary Stabiliser
+forestry:alveary.sieve:0, Alveary Sieve
+forestry:apiarist_bag, Apiarist's Backpack
+forestry:lepidopterist_bag, Lepidopterist's Backpack
+forestry:miner_bag, Mining Backpack
+forestry:miner_bag_t2, Woven Mining Backpack
+forestry:digger_bag, Digging Backpack
+forestry:digger_bag_t2, Woven Digging Backpack
+forestry:forester_bag, Foresting Backpack
+forestry:forester_bag_t2, Woven Foresting Backpack
+forestry:hunter_bag, Hunting Backpack
+forestry:hunter_bag_t2, Woven Hunting Backpack
+forestry:adventurer_bag, Adventuring Backpack
+forestry:adventurer_bag_t2, Woven Adventuring Backpack
+forestry:builder_bag, Building Backpack
+forestry:builder_bag_t2, Woven Building Backpack
+forestry:book_forester, Forester's Manual
+forestry:worktable:0, Worktable
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
 forestry:grafter, Grafter
 forestry:grafter_proven, Proven Grafter
 forestry:logs.0:0, Larch Wood
@@ -1315,6 +1453,7 @@ forestry:leaves.decorative.2:1, Date Palm Leaves
 forestry:leaves.decorative.2:2, White Poplar Leaves
 forestry:tree_chest:0, Arborist's Chest
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 forestry:apiarist_bag, Apiarist's Backpack
 forestry:lepidopterist_bag, Lepidopterist's Backpack
 forestry:miner_bag, Mining Backpack
@@ -1336,66 +1475,57 @@ forestry:engine_peat:0, Peat-fired Engine
 forestry:engine_biogas:0, Biogas Engine
 forestry:engine_clockwork:0, Clockwork Engine
 forestry:worktable:0, Worktable
+=======
+forestry:genetic_filter:0, Genetic Filter
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:fluid.bio.ethanol, Ethanol
+forestry:fluid.biomass, Biomass
+forestry:fluid.glass, Liquid Glass
+forestry:fluid.for.honey, Honey
+forestry:fluid.ice, Crushed Ice
+forestry:fluid.juice, Fruit Juice
+forestry:fluid.milk, Milk
+forestry:fluid.seed.oil, Seed Oil
+forestry:fluid.short.mead, Short Mead
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block:0, Ash Block
+forestry:loam:0, Loam
+>>>>>>> Stashed changes
 forestry:butterfly_chest:0, Lepidopterist's Chest
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse_screen, Portable Greenhouse Screen
+forestry:camouflage_spray_can, Camouflage Spray Can
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
+forestry:crate, Crate
+forestry:database:0, Database
 forestry:arboretum:0, Arboretum (Managed)
 forestry:arboretum:1, Arboretum (Manual)
 forestry:farm_crops:0, Farm (Managed)
@@ -1410,6 +1540,7 @@ forestry:farm_ender:0, Ender Farm (Managed)
 forestry:farm_ender:1, Ender Farm (Manual)
 forestry:peat_bog:0, Peat Bog (Managed)
 forestry:peat_bog:1, Peat Bog (Manual)
+<<<<<<< Updated upstream
 forestry:database:0, Database
 forestry:fluid.bio.ethanol, Ethanol
 forestry:fluid.biomass, Biomass
@@ -1514,6 +1645,8 @@ forestry:alveary.heater:0, Alveary Heater
 forestry:alveary.hygro:0, Alveary Hygroregulator
 forestry:alveary.stabiliser:0, Alveary Stabiliser
 forestry:alveary.sieve:0, Alveary Sieve
+=======
+>>>>>>> Stashed changes
 binniecore:glass:0, Empty Bottle
 binniecore:glass:1, Apple Juice Bottle
 binniecore:glass:1, Apricot Juice Bottle
@@ -1656,6 +1789,107 @@ genetics:lab_machine:2, Incubator
 genetics:lab_machine:3, Genepool
 genetics:lab_machine:4, Acclimatiser
 genetics:adv_machine:0, Splicer
+botany:machine:0, Tileworker
+botany:plant:0, Weed
+botany:plant:1, Weed Long
+botany:plant:2, Weed Very Long
+botany:plant:3, Dead Flower
+botany:plant:4, Decaying Flower
+botany:soil:0, Soil
+botany:soil:1, Soil
+botany:soil:2, Soil
+botany:soil:3, Soil
+botany:soil:4, Soil
+botany:soil:5, Soil
+botany:soil:6, Soil
+botany:soil:7, Soil
+botany:soil:8, Soil
+botany:loam:0, Loam
+botany:loam:1, Loam
+botany:loam:2, Loam
+botany:loam:3, Loam
+botany:loam:4, Loam
+botany:loam:5, Loam
+botany:loam:6, Loam
+botany:loam:7, Loam
+botany:loam:8, Loam
+botany:flowerbed:0, Flowerbed
+botany:flowerbed:1, Flowerbed
+botany:flowerbed:2, Flowerbed
+botany:flowerbed:3, Flowerbed
+botany:flowerbed:4, Flowerbed
+botany:flowerbed:5, Flowerbed
+botany:flowerbed:6, Flowerbed
+botany:flowerbed:7, Flowerbed
+botany:flowerbed:8, Flowerbed
+botany:soil_no_weed:0, Soil
+botany:soil_no_weed:1, Soil
+botany:soil_no_weed:2, Soil
+botany:soil_no_weed:3, Soil
+botany:soil_no_weed:4, Soil
+botany:soil_no_weed:5, Soil
+botany:soil_no_weed:6, Soil
+botany:soil_no_weed:7, Soil
+botany:soil_no_weed:8, Soil
+botany:loam_no_weed:0, Loam
+botany:loam_no_weed:1, Loam
+botany:loam_no_weed:2, Loam
+botany:loam_no_weed:3, Loam
+botany:loam_no_weed:4, Loam
+botany:loam_no_weed:5, Loam
+botany:loam_no_weed:6, Loam
+botany:loam_no_weed:7, Loam
+botany:loam_no_weed:8, Loam
+botany:flowerbed_no_weed:0, Flowerbed
+botany:flowerbed_no_weed:1, Flowerbed
+botany:flowerbed_no_weed:2, Flowerbed
+botany:flowerbed_no_weed:3, Flowerbed
+botany:flowerbed_no_weed:4, Flowerbed
+botany:flowerbed_no_weed:5, Flowerbed
+botany:flowerbed_no_weed:6, Flowerbed
+botany:flowerbed_no_weed:7, Flowerbed
+botany:flowerbed_no_weed:8, Flowerbed
+botany:soil_meter, Soil Meter
+botany:trowel_wood, Wooden Trowel
+botany:trowel_stone, Stone Trowel
+botany:trowel_iron, Iron Trowel
+botany:trowel_diamond, Diamond Trowel
+botany:trowel_gold, Gold Trowel
+botany:misc:0, Ash Powder
+botany:misc:1, Wood Pulp Powder
+botany:misc:2, Mulch Powder
+botany:misc:3, Sulphur Powder
+botany:misc:4, Fertilizer Powder
+botany:misc:5, Compost Powder
+botany:misc:6, Mortar
+botany:misc:7, Weedkiller
+botany:botanist_bag, Botanist's Backpack
+botany:database:0, Botanist Database
+botany:database:1, Master Botanist Database
+botany:insulated_tube:0, Copper Clay Insulated Electron Tube
+botany:insulated_tube:128, Copper Cobblestone Insulated Electron Tube
+botany:insulated_tube:256, Copper Sandstone Insulated Electron Tube
+botany:insulated_tube:384, Copper Hardened Clay Insulated Electron Tube
+botany:insulated_tube:512, Copper Smooth Stone Insulated Electron Tube
+botany:insulated_tube:640, Copper Sandstone Insulated Electron Tube
+botany:insulated_tube:1, Tin Clay Insulated Electron Tube
+botany:insulated_tube:129, Tin Cobblestone Insulated Electron Tube
+botany:insulated_tube:257, Tin Sandstone Insulated Electron Tube
+botany:insulated_tube:385, Tin Hardened Clay Insulated Electron Tube
+botany:insulated_tube:513, Tin Smooth Stone Insulated Electron Tube
+botany:insulated_tube:641, Tin Sandstone Insulated Electron Tube
+botany:insulated_tube:2, Bronze Clay Insulated Electron Tube
+botany:insulated_tube:130, Bronze Cobblestone Insulated Electron Tube
+botany:insulated_tube:258, Bronze Sandstone Insulated Electron Tube
+botany:insulated_tube:386, Bronze Hardened Clay Insulated Electron Tube
+botany:insulated_tube:514, Bronze Smooth Stone Insulated Electron Tube
+botany:insulated_tube:642, Bronze Sandstone Insulated Electron Tube
+botany:insulated_tube:3, Iron Clay Insulated Electron Tube
+botany:insulated_tube:131, Iron Cobblestone Insulated Electron Tube
+botany:insulated_tube:259, Iron Sandstone Insulated Electron Tube
+botany:insulated_tube:387, Iron Hardened Clay Insulated Electron Tube
+botany:insulated_tube:515, Iron Smooth Stone Insulated Electron Tube
+botany:insulated_tube:643, Iron Sandstone Insulated Electron Tube
 botany:ceramic:0, Aquamarine Ceramic Block
 botany:ceramic:1, Black Ceramic Block
 botany:ceramic:2, Deep Blue Ceramic Block
@@ -1991,107 +2225,6 @@ botany:clay:77, White Clay
 botany:clay:78, Yellow Clay
 botany:clay:79, Yellow-Green Clay
 botany:misc_ceramic:0, Mortar
-botany:plant:0, Weed
-botany:plant:1, Weed Long
-botany:plant:2, Weed Very Long
-botany:plant:3, Dead Flower
-botany:plant:4, Decaying Flower
-botany:soil:0, Soil
-botany:soil:1, Soil
-botany:soil:2, Soil
-botany:soil:3, Soil
-botany:soil:4, Soil
-botany:soil:5, Soil
-botany:soil:6, Soil
-botany:soil:7, Soil
-botany:soil:8, Soil
-botany:loam:0, Loam
-botany:loam:1, Loam
-botany:loam:2, Loam
-botany:loam:3, Loam
-botany:loam:4, Loam
-botany:loam:5, Loam
-botany:loam:6, Loam
-botany:loam:7, Loam
-botany:loam:8, Loam
-botany:flowerbed:0, Flowerbed
-botany:flowerbed:1, Flowerbed
-botany:flowerbed:2, Flowerbed
-botany:flowerbed:3, Flowerbed
-botany:flowerbed:4, Flowerbed
-botany:flowerbed:5, Flowerbed
-botany:flowerbed:6, Flowerbed
-botany:flowerbed:7, Flowerbed
-botany:flowerbed:8, Flowerbed
-botany:soil_no_weed:0, Soil
-botany:soil_no_weed:1, Soil
-botany:soil_no_weed:2, Soil
-botany:soil_no_weed:3, Soil
-botany:soil_no_weed:4, Soil
-botany:soil_no_weed:5, Soil
-botany:soil_no_weed:6, Soil
-botany:soil_no_weed:7, Soil
-botany:soil_no_weed:8, Soil
-botany:loam_no_weed:0, Loam
-botany:loam_no_weed:1, Loam
-botany:loam_no_weed:2, Loam
-botany:loam_no_weed:3, Loam
-botany:loam_no_weed:4, Loam
-botany:loam_no_weed:5, Loam
-botany:loam_no_weed:6, Loam
-botany:loam_no_weed:7, Loam
-botany:loam_no_weed:8, Loam
-botany:flowerbed_no_weed:0, Flowerbed
-botany:flowerbed_no_weed:1, Flowerbed
-botany:flowerbed_no_weed:2, Flowerbed
-botany:flowerbed_no_weed:3, Flowerbed
-botany:flowerbed_no_weed:4, Flowerbed
-botany:flowerbed_no_weed:5, Flowerbed
-botany:flowerbed_no_weed:6, Flowerbed
-botany:flowerbed_no_weed:7, Flowerbed
-botany:flowerbed_no_weed:8, Flowerbed
-botany:soil_meter, Soil Meter
-botany:trowel_wood, Wooden Trowel
-botany:trowel_stone, Stone Trowel
-botany:trowel_iron, Iron Trowel
-botany:trowel_diamond, Diamond Trowel
-botany:trowel_gold, Gold Trowel
-botany:misc:0, Ash Powder
-botany:misc:1, Wood Pulp Powder
-botany:misc:2, Mulch Powder
-botany:misc:3, Sulphur Powder
-botany:misc:4, Fertilizer Powder
-botany:misc:5, Compost Powder
-botany:misc:6, Mortar
-botany:misc:7, Weedkiller
-botany:botanist_bag, Botanist's Backpack
-botany:database:0, Botanist Database
-botany:database:1, Master Botanist Database
-botany:insulated_tube:0, Copper Clay Insulated Electron Tube
-botany:insulated_tube:128, Copper Cobblestone Insulated Electron Tube
-botany:insulated_tube:256, Copper Sandstone Insulated Electron Tube
-botany:insulated_tube:384, Copper Hardened Clay Insulated Electron Tube
-botany:insulated_tube:512, Copper Smooth Stone Insulated Electron Tube
-botany:insulated_tube:640, Copper Sandstone Insulated Electron Tube
-botany:insulated_tube:1, Tin Clay Insulated Electron Tube
-botany:insulated_tube:129, Tin Cobblestone Insulated Electron Tube
-botany:insulated_tube:257, Tin Sandstone Insulated Electron Tube
-botany:insulated_tube:385, Tin Hardened Clay Insulated Electron Tube
-botany:insulated_tube:513, Tin Smooth Stone Insulated Electron Tube
-botany:insulated_tube:641, Tin Sandstone Insulated Electron Tube
-botany:insulated_tube:2, Bronze Clay Insulated Electron Tube
-botany:insulated_tube:130, Bronze Cobblestone Insulated Electron Tube
-botany:insulated_tube:258, Bronze Sandstone Insulated Electron Tube
-botany:insulated_tube:386, Bronze Hardened Clay Insulated Electron Tube
-botany:insulated_tube:514, Bronze Smooth Stone Insulated Electron Tube
-botany:insulated_tube:642, Bronze Sandstone Insulated Electron Tube
-botany:insulated_tube:3, Iron Clay Insulated Electron Tube
-botany:insulated_tube:131, Iron Cobblestone Insulated Electron Tube
-botany:insulated_tube:259, Iron Sandstone Insulated Electron Tube
-botany:insulated_tube:387, Iron Hardened Clay Insulated Electron Tube
-botany:insulated_tube:515, Iron Smooth Stone Insulated Electron Tube
-botany:insulated_tube:643, Iron Sandstone Insulated Electron Tube
-botany:machine:0, Tileworker
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_comb:0, Barren Comb
 extrabees:honey_comb:1, Rotten Comb
@@ -2318,6 +2451,7 @@ extratrees:food:59, Candlenut
 extratrees:hammer, item.hammer.name
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, item.hops.name
+<<<<<<< Updated upstream
 extratrees:databasetree, item.databaseTree.name
 <<<<<<< Updated upstream
 =======
@@ -2349,6 +2483,8 @@ extratrees:carpentrypanel, tile.null.name
 extratrees:stainedglass, tile.null.name
 >>>>>>> Stashed changes
 extratrees:databaselepi, item.databaseLepi.name
+=======
+>>>>>>> Stashed changes
 extratrees:logs.0:0, Apple Wood
 extratrees:logs.0:1, Fig Wood
 extratrees:logs.0:2, Butternut Wood
@@ -2950,6 +3086,8 @@ extratrees:machine:7, Glassworker
 extratrees:carpentry, tile.null.name
 extratrees:carpentrypanel, tile.null.name
 extratrees:stainedglass, tile.null.name
+extratrees:databasetree, item.databaseTree.name
+extratrees:databaselepi, item.databaseLepi.name
 extratrees:binnie.juice.apple, tile.extratrees.fluid.juice.apple.name
 extratrees:binnie.juice.apricot, tile.extratrees.fluid.juice.apricot.name
 extratrees:binnie.juice.banana, tile.extratrees.fluid.juice.banana.name
@@ -5177,10 +5315,16 @@ thermaldynamics:cover:0, Block of Tin Cover
 thermaldynamics:cover:0, Block of Bronze Cover
 thermaldynamics:cover:0, Ash Bricks Cover
 thermaldynamics:cover:0, Ash Brick Stairs Cover
-thermaldynamics:cover:0, Block of Charcoal Cover
-thermaldynamics:cover:0, Wood Pile Cover
-thermaldynamics:cover:0, Decorative Wood Pile Cover
-thermaldynamics:cover:0, Loam Cover
+thermaldynamics:cover:0, Candle Stump Cover
+thermaldynamics:cover:0, Honey Comb Block Cover
+thermaldynamics:cover:0, Simmering Comb Block Cover
+thermaldynamics:cover:0, Stringy Comb Block Cover
+thermaldynamics:cover:0, Frozen Comb Block Cover
+thermaldynamics:cover:0, Dripping Comb Block Cover
+thermaldynamics:cover:0, Silky Comb Block Cover
+thermaldynamics:cover:0, Parched Comb Block Cover
+thermaldynamics:cover:0, Mossy Comb Block Cover
+thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Larch Wood Cover
 thermaldynamics:cover:0, Teak Wood Cover
 thermaldynamics:cover:0, Desert Acacia Wood Cover
@@ -5629,16 +5773,10 @@ thermaldynamics:cover:0, Sipiri Leaves Cover
 thermaldynamics:cover:0, Papaya Leaves Cover
 thermaldynamics:cover:0, Date Palm Leaves Cover
 thermaldynamics:cover:0, White Poplar Leaves Cover
-thermaldynamics:cover:0, Candle Stump Cover
-thermaldynamics:cover:0, Honey Comb Block Cover
-thermaldynamics:cover:0, Simmering Comb Block Cover
-thermaldynamics:cover:0, Stringy Comb Block Cover
-thermaldynamics:cover:0, Frozen Comb Block Cover
-thermaldynamics:cover:0, Dripping Comb Block Cover
-thermaldynamics:cover:0, Silky Comb Block Cover
-thermaldynamics:cover:0, Parched Comb Block Cover
-thermaldynamics:cover:0, Mossy Comb Block Cover
-thermaldynamics:cover:0, Mellow Comb Block Cover
+thermaldynamics:cover:0, Block of Charcoal Cover
+thermaldynamics:cover:0, Wood Pile Cover
+thermaldynamics:cover:0, Decorative Wood Pile Cover
+thermaldynamics:cover:0, Loam Cover
 thermaldynamics:cover:0, Weed Cover
 thermaldynamics:cover:0, Weed Long Cover
 thermaldynamics:cover:0, Weed Very Long Cover
@@ -9248,11 +9386,15 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Loam
+appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
+appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
+appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
+appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
+appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
+appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Larch Wood
 appliedenergistics2:facade:0, Cable Facade - Teak Wood
 appliedenergistics2:facade:0, Cable Facade - Desert Acacia Wood
@@ -9381,15 +9523,11 @@ appliedenergistics2:facade:0, Cable Facade - Birch Wood Planks (Fireproof)
 appliedenergistics2:facade:0, Cable Facade - Jungle Wood Planks (Fireproof)
 appliedenergistics2:facade:0, Cable Facade - Acacia Wood Planks (Fireproof)
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Wood Planks (Fireproof)
-appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
-appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
-appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
-appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
-appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
-appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Loam
 appliedenergistics2:facade:0, Cable Facade - Apple Wood
 appliedenergistics2:facade:0, Cable Facade - Fig Wood
 appliedenergistics2:facade:0, Cable Facade - Butternut Wood
@@ -12003,6 +12141,8 @@ appliedenergistics2:facade:0, Cable Facade - Ruined Etched Nagastone
 appliedenergistics2:facade:0, Cable Facade - Ruined Nagastone Pillar
 appliedenergistics2:facade:0, Cable Facade - Soot-covered Machine Casing
 appliedenergistics2:facade:0, Cable Facade - Glitch Infused Block
+<<<<<<< Updated upstream
+=======
 appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Luminessence
 appliedenergistics2:facade:0, Cable Facade - Block of Nether Stars
@@ -12019,6 +12159,7 @@ appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+>>>>>>> Stashed changes
 appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
 appliedenergistics2:facade:0, Cable Facade - Crafting Table
 appliedenergistics2:facade:0, Cable Facade - Tin Decoration Block
@@ -12614,6 +12755,7 @@ appliedenergistics2:facade:0, Cable Facade - Engraved Infused Wood
 appliedenergistics2:facade:0, Cable Facade - Enriched Infused Wood
 appliedenergistics2:facade:0, Cable Facade - Vibrant Infused Wood
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 appliedenergistics2:facade:0, Cable Facade - Psidust Block
 appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
@@ -12627,6 +12769,9 @@ appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
 appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
 appliedenergistics2:facade:0, Cable Facade - Basalt
 <<<<<<< Updated upstream
+=======
+appliedenergistics2:facade:0, Cable Facade - Psidust Block
+>>>>>>> Stashed changes
 appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 =======
 >>>>>>> Stashed changes
@@ -12655,6 +12800,14 @@ appliedenergistics2:facade:0, Cable Facade - Vertical White Stained Planks
 appliedenergistics2:facade:0, Cable Facade - Duskbound Block
 appliedenergistics2:facade:0, Cable Facade - Duskbound Lantern
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
+appliedenergistics2:facade:0, Cable Facade - Marble
+appliedenergistics2:facade:0, Cable Facade - Limestone
+appliedenergistics2:facade:0, Cable Facade - Brimstone
+appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
+appliedenergistics2:facade:0, Cable Facade - Block of Biotite
+appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Basalt
 appliedenergistics2:facade:0, Cable Facade - Litherite
 appliedenergistics2:facade:0, Cable Facade - Litherite Paver
 appliedenergistics2:facade:0, Cable Facade - Litherite Bricks
@@ -13851,6 +14004,7 @@ natura:netherquartz_shovel, Quartz Shovel
 natura:netherquartz_axe, Quartz Hatchet
 natura:netherquartz_kama, Quartz Kama
 natura:flint_and_blaze, Flint and Blaze
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
@@ -16491,6 +16645,8 @@ tconstruct:fancy_frame:5, Golden Item Frame
 tconstruct:fancy_frame:6, Clear Item Frame
 tconstruct:moms_spaghetti, Mom's Spaghetti
 =======
+=======
+>>>>>>> Stashed changes
 bloodmagic:altar, Blood Altar
 bloodmagic:blood_rune:0, Blank Rune
 bloodmagic:blood_rune:1, Speed Rune
@@ -17214,6 +17370,9 @@ mekanism:plasticfence:13, §dMagenta Plastic Barrier
 mekanism:plasticfence:14, §6Orange Plastic Barrier
 mekanism:plasticfence:15, §fWhite Plastic Barrier
 mekanism:saltblock, Salt Block
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ceramics:unfired_clay:0, Unfired Clay Bucket
 ceramics:unfired_clay:1, Unfired Clay Shears
@@ -17224,6 +17383,7 @@ ceramics:unfired_clay:9, Clay Plate
 ceramics:clay_bucket:0, Clay Bucket
 ceramics:clay_bucket:0, Water Clay Bucket
 ceramics:clay_bucket:0, Lava Clay Bucket
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ceramics:clay_bucket:0, Molten Iron Clay Bucket
 ceramics:clay_bucket:0, Molten Gold Clay Bucket
@@ -17249,6 +17409,11 @@ ceramics:clay_bucket:0, Brine Clay Bucket
 ceramics:clay_bucket:0, Liquid Lithium Clay Bucket
 ceramics:clay_bucket:0, Heavy Water Clay Bucket
 >>>>>>> Stashed changes
+=======
+ceramics:clay_bucket:0, Brine Clay Bucket
+ceramics:clay_bucket:0, Liquid Lithium Clay Bucket
+ceramics:clay_bucket:0, Heavy Water Clay Bucket
+>>>>>>> Stashed changes
 ceramics:clay_bucket:0, Liquid Glowstone Clay Bucket
 ceramics:clay_bucket:0, Liquid Magma Clay Bucket
 ceramics:clay_bucket:0, Liquid Nitrogen Clay Bucket
@@ -17266,6 +17431,7 @@ ceramics:clay_bucket:0, Canola Oil Clay Bucket
 ceramics:clay_bucket:0, Refined Canola Oil Clay Bucket
 ceramics:clay_bucket:0, Crystallized Oil Clay Bucket
 ceramics:clay_bucket:0, Empowered Oil Clay Bucket
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ceramics:clay_bucket:0, Beryllium Clay Bucket
 ceramics:clay_bucket:0, Calcium Clay Bucket
@@ -17301,6 +17467,8 @@ ceramics:clay_bucket:0, Oil Clay Bucket
 ceramics:clay_bucket:0, Sulfuric Acid Clay Bucket
 ceramics:clay_bucket:0, Compressed Air Clay Bucket
 ceramics:clay_bucket:0, Electrolyzed Water Clay Bucket
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Ethanol Clay Bucket
@@ -17413,7 +17581,10 @@ ceramics:clay_bucket:0, Blackcurrant Liqueur Clay Bucket
 ceramics:clay_bucket:0, Blackberry Liqueur Clay Bucket
 ceramics:clay_bucket:0, Raspberry Liqueur Clay Bucket
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ceramics:clay_bucket:0, Steam Clay Bucket
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Creosote Oil Clay Bucket
@@ -17442,6 +17613,7 @@ ceramics:clay_bucket:0, Zephyrean Aerotheum Clay Bucket
 ceramics:clay_bucket:0, Tectonic Petrotheum Clay Bucket
 ceramics:clay_bucket:0, Primal Mana Clay Bucket
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ceramics:clay_bucket:0, Molten Platinum Clay Bucket
 ceramics:clay_bucket:0, Molten Iridium Clay Bucket
 ceramics:clay_bucket:0, Molten Invar Clay Bucket
@@ -17464,6 +17636,10 @@ ceramics:clay_bucket:0, Fuel Clay Bucket
 ceramics:clay_bucket:0, Oil Clay Bucket
 ceramics:clay_bucket:0, Gasoline Clay Bucket
 >>>>>>> Stashed changes
+=======
+ceramics:clay_bucket:0, Oil Clay Bucket
+ceramics:clay_bucket:0, Gasoline Clay Bucket
+>>>>>>> Stashed changes
 ceramics:clay_bucket:0, Oxygen Clay Bucket
 ceramics:clay_bucket:0, Hydrogen Clay Bucket
 ceramics:clay_bucket:0, Bacterial Sludge Clay Bucket
@@ -17472,9 +17648,12 @@ ceramics:clay_bucket:0, Argon Clay Bucket
 ceramics:clay_bucket:0, Helium Clay Bucket
 ceramics:clay_bucket:0, Sulphuric Acid Clay Bucket
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ceramics:clay_bucket:0, Evil Infused Iron Clay Bucket
 ceramics:clay_bucket:0, Enchanted Metal Clay Bucket
 ceramics:clay_bucket:0, Molten Demon Metal Clay Bucket
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Mutagen Clay Bucket
@@ -17491,13 +17670,19 @@ ceramics:clay_bucket:0, Protein Clay Bucket
 ceramics:clay_bucket:0, Menril Resin Clay Bucket
 ceramics:clay_bucket:0, Liquid Chorus Clay Bucket
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 ceramics:clay_bucket:0, Liquid Petroleum Gas Clay Bucket
 ceramics:clay_bucket:0, Liquid Plastic Clay Bucket
 ceramics:clay_bucket:0, Kerosene Clay Bucket
 ceramics:clay_bucket:0, Diesel Clay Bucket
 ceramics:clay_bucket:0, Lubricant Clay Bucket
 ceramics:clay_bucket:0, Etching Acid Clay Bucket
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Liquid XP Clay Bucket
 ceramics:clay_bucket:0, Sulfuric Acid Clay Bucket
@@ -17550,9 +17735,12 @@ ceramics:clay_bucket:0, Molten Tantaloy Clay Bucket
 ceramics:clay_bucket:0, Molten Corten Steel Clay Bucket
 ceramics:clay_bucket:0, Molten Pewter Clay Bucket
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ceramics:clay_bucket:0, Molten Fiery Clay Bucket
 ceramics:clay_bucket:0, Molten Knightmetal Clay Bucket
 ceramics:clay_bucket:0, Fiery Essence Clay Bucket
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Plant Oil Clay Bucket
@@ -17560,7 +17748,10 @@ ceramics:clay_bucket:0, Ethanol Clay Bucket
 ceramics:clay_bucket:0, Biodiesel Clay Bucket
 ceramics:clay_bucket:0, Liquid Concrete Clay Bucket
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ceramics:clay_bucket:0, Molten Uranium Clay Bucket
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Nutrient Distillation Clay Bucket
@@ -17572,6 +17763,7 @@ ceramics:clay_bucket:0, Fire Water Clay Bucket
 ceramics:clay_bucket:0, Liquid Sunshine Clay Bucket
 ceramics:clay_bucket:0, Cloud Seed Clay Bucket
 ceramics:clay_bucket:0, Concentrated Cloud Seed Clay Bucket
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ceramics:clay_bucket:0, Liquid Death Clay Bucket
 ceramics:clay_bucket:0, Purifying Fluid Clay Bucket
@@ -17586,12 +17778,17 @@ ceramics:clay_bucket:0, Liquid Purple Slime Clay Bucket
 ceramics:clay_bucket:0, Fluid Yellorium Clay Bucket
 ceramics:clay_bucket:0, Fluid Cyanite Clay Bucket
 =======
+=======
+>>>>>>> Stashed changes
 ceramics:clay_bucket:0, Life Essence Clay Bucket
 ceramics:clay_bucket:0, Liquid Death Clay Bucket
 ceramics:clay_bucket:0, Purifying Fluid Clay Bucket
 ceramics:clay_bucket:0, Molten Fiery Clay Bucket
 ceramics:clay_bucket:0, Molten Knightmetal Clay Bucket
 ceramics:clay_bucket:0, Fiery Essence Clay Bucket
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ceramics:clay_bucket:0, Liquid Starlight Clay Bucket
 ceramics:clay_bucket:1, Milk Clay Bucket
@@ -17740,6 +17937,7 @@ chesttransporter:chesttransporter_silver, Silver Chest Transporter
 chesttransporter:chesttransporter_tin, Tin Chest Transporter
 chesttransporter:chesttransporter_obsidian, Obsidian Chest Transporter
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 projecte:alchemical_chest, Alchemical Chest
 projecte:collector_mk1, Energy Collector MK1
 projecte:collector_mk2, Energy Collector MK2
@@ -17855,6 +18053,8 @@ projecte:item.pe_tome, Tome of Knowledge
 projecte:item.pe_transmutation_tablet, Transmutation Tablet
 projecte:item.pe_manual, Book of the Alchemist [WIP]
 =======
+=======
+>>>>>>> Stashed changes
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
@@ -18494,6 +18694,9 @@ enderio:block_gauge, Energy Gauge
 enderio:block_power_monitor, Power Monitor
 enderio:block_advanced_power_monitor, Graphical Power Monitor
 enderio:item_species_item_filter:0, Species Item Filter
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 darkutils:trap_move, Vector Plate
 darkutils:trap_move_fast, Fast Vector Plate
@@ -18600,6 +18803,7 @@ darkutils:charm_null, Null Charm
 darkutils:charm_portal, Portal Charm
 darkutils:charm_sleep, Sleep Charm
 darkutils:anti_slime, Anti-Slime Block
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 energyconverters:energy_bridge, Energy Bridge
 energyconverters:energy_producer_fe, FE Energy Producer
@@ -21130,6 +21334,8 @@ traverse:dead_grass, Dead Grass
 traverse:cold_grass, Cold Grass
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 twilightforest:naga_scale, Naga Scale
 twilightforest:naga_chestplate, Naga Scale Tunic
 twilightforest:naga_leggings, Naga Scale Leggings
@@ -22906,6 +23112,27 @@ ironbackpacks:upgrade:0, Damage Bar Upgrade
 ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
 ironbackpacks:upgrade:0, Everlasting Upgrade
+<<<<<<< Updated upstream
+=======
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
+>>>>>>> Stashed changes
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -23026,6 +23253,7 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+<<<<<<< Updated upstream
 ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
 ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
 ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
@@ -23044,6 +23272,8 @@ ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrad
 ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
 ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
 ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
+=======
+>>>>>>> Stashed changes
 mekanismgenerators:solarpanel, Solar Panel
 mekanismgenerators:hohlraum, Hohlraum
 mekanismgenerators:turbineblade, Turbine Blade
@@ -23066,6 +23296,7 @@ mekanismgenerators:reactor:2, Reactor Port
 mekanismgenerators:reactor:3, Reactor Logic Adapter
 mekanismgenerators:reactorglass:0, Reactor Glass
 mekanismgenerators:reactorglass:1, Laser Focus Matrix
+<<<<<<< Updated upstream
 pneumaticcraft:safety_tube_module, Safety Tube Module
 pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
 pneumaticcraft:flow_detector_module, Flow Detector Tube Module
@@ -23074,6 +23305,8 @@ pneumaticcraft:regulator_tube_module, Regulator Tube Module
 pneumaticcraft:charging_module, Charging Module
 pneumaticcraft:logistics_module, Logistics Module
 pneumaticcraft:fluid.etchacid, Etching Acid
+=======
+>>>>>>> Stashed changes
 pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
 pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
 pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
@@ -23220,6 +23453,17 @@ pneumaticcraft:kerosene_lamp, Kerosene Lamp
 pneumaticcraft:sentry_turret, Sentry Turret
 pneumaticcraft:flux_compressor, Flux Compressor
 pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
+<<<<<<< Updated upstream
+=======
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:fluid.etchacid, Etching Acid
+>>>>>>> Stashed changes
 portality:controller, Portal Controller
 portality:frame, Portal Frame
 portality:module_interdimensional, Interdimensional Module
@@ -23309,6 +23553,7 @@ rockhounding_core:fuel_blend, Fuel Blend
 rockhounding_core:mod_wrench, Mod Wrench
 gbook:guidebook:0, Guidebook Manual
 gbook:guidebook:0, Rockhounding Chemistry Guide book
+<<<<<<< Updated upstream
 rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
 rockhounding_chemistry:fluid.molten_scal, Molten ScAl
 rockhounding_chemistry:fluid.virgin_water, Virgin Water
@@ -23358,6 +23603,8 @@ rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
 rockhounding_chemistry:fluid.methanol, Methanol
 rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
 rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
+=======
+>>>>>>> Stashed changes
 rockhounding_chemistry:tile_nullifier, Tile Nullifier
 rockhounding_chemistry:crushing_gear, Crushing Gear
 rockhounding_chemistry:slurry_agitator, Slurry Agitator
@@ -24014,6 +24261,58 @@ rockhounding_chemistry:didymium_glass:2, Didymium Glass (Bricks)
 rockhounding_chemistry:waterlock:0, Dry Waterlock
 rockhounding_chemistry:waterlock:1, Wet Waterlock
 rockhounding_chemistry:toxic_cloud, Toxic Cloud
+<<<<<<< Updated upstream
+=======
+rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
+rockhounding_chemistry:fluid.compressed_air, Compressed Air
+rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
+rockhounding_chemistry:fluid.silicone, Silicone
+rockhounding_chemistry:fluid.dense_brine, Dense Brine
+rockhounding_chemistry:fluid.ammonia, Ammonia
+rockhounding_chemistry:fluid.molten_bam, Molten BAM
+rockhounding_chemistry:fluid.virgin_water, Virgin Water
+rockhounding_chemistry:fluid.molten_cube, Molten CuBe
+rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
+rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
+rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
+rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
+rockhounding_chemistry:fluid.hydrofluoric_acid, Hydrofluoric Acid
+rockhounding_chemistry:fluid.cooled_air, Cooled Air
+rockhounding_chemistry:fluid.chloromethane, Chloromethane
+rockhounding_chemistry:fluid.sulfuric_acid, Sulfuric Acid
+rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
+rockhounding_chemistry:fluid.leachate, Leachate
+rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
+rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
+rockhounding_chemistry:fluid.krypton, Krypton
+rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
+rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
+rockhounding_chemistry:fluid.molten_scal, Molten ScAl
+rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
+rockhounding_chemistry:fluid.syngas, Syngas
+rockhounding_chemistry:fluid.salt_brine, Low Density Brine
+rockhounding_chemistry:fluid.carbon_dioxide, Carbon Dioxide
+rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
+rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
+rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
+rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
+rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
+rockhounding_chemistry:fluid.liquid_nitrogen, Liquid Nitrogen
+rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
+rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
+rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
+rockhounding_chemistry:fluid.xenon, Xenon
+rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
+rockhounding_chemistry:fluid.refined_air, Refined Air
+rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
+rockhounding_chemistry:fluid.acrylic_acid, Acrylic Acid
+rockhounding_chemistry:fluid.neon, Neon
+rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
+rockhounding_chemistry:fluid.water_vapour, Water Vapour
+rockhounding_chemistry:fluid.methanol, Methanol
+rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
+rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
+>>>>>>> Stashed changes
 silentgear:guide_book, item.silentgear.guide_book.name
 silentgear:blueprint_sword, item.silentgear.blueprint_sword.name
 silentgear:blueprint_dagger, item.silentgear.blueprint_dagger.name
@@ -24077,6 +24376,7 @@ silentgear:chestplate, Chestplate
 silentgear:leggings, Leggings
 silentgear:boots, Boots
 bq_standard:loot_chest, Loot Chest
+<<<<<<< Updated upstream
 storagedrawers:upgrade_template, Upgrade Template
 storagedrawers:upgrade_storage:0, Storage Upgrade (I)
 storagedrawers:upgrade_storage:1, Storage Upgrade (II)
@@ -24098,6 +24398,8 @@ storagedrawers:shroud_key, Concealment Key
 storagedrawers:personal_key, Personal Key
 storagedrawers:quantify_key, Quantify Key
 storagedrawers:tape, Packing Tape
+=======
+>>>>>>> Stashed changes
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -24148,6 +24450,35 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+<<<<<<< Updated upstream
+=======
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
+thaumictinkerer:share_book, Tome of Knowledge Sharing
+thaumictinkerer:cleaning_talisman, Talisman of Remedium
+thaumictinkerer:black_quartz, Smokey Quartz
+thaumictinkerer:connector, Transvector Binder
+thaumictinkerer:soul_mould, item.thaumictinkerer:soul_mould.name
+>>>>>>> Stashed changes
 thaumictinkerer:funnel, Essentia Funnel
 thaumictinkerer:dissimulation, Dissimulation Block
 thaumictinkerer:transvector_interface, Transvector Interface
@@ -24155,11 +24486,14 @@ thaumictinkerer:transvector_dislocator, tile.thaumictinkerer:transvector_disloca
 thaumictinkerer:repairer, Thaumic Restorer
 thaumictinkerer:magnet, Kinetic Attractor
 thaumictinkerer:mob_magnet, Corporeal Attractor
+<<<<<<< Updated upstream
 thaumictinkerer:share_book, Tome of Knowledge Sharing
 thaumictinkerer:cleaning_talisman, Talisman of Remedium
 thaumictinkerer:black_quartz, Smokey Quartz
 thaumictinkerer:connector, Transvector Binder
 thaumictinkerer:soul_mould, item.thaumictinkerer:soul_mould.name
+=======
+>>>>>>> Stashed changes
 torchmaster:mega_torch:0, Mega Torch
 torchmaster:mega_torch:1, Unlit Mega Torch
 torchmaster:terrain_lighter, Terrain Lighter
@@ -25406,6 +25740,7 @@ astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 akashictome:tome, item.tome.name
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 quark:glass_shards:0, Glass Shard
 quark:glass_shards:1, White Glass Shard
 quark:glass_shards:2, Orange Glass Shard
@@ -25467,6 +25802,88 @@ quark:stone_basalt_slab:0, Basalt Slab
 quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
 quark:basalt_wall, tile.basalt_wall.name
 quark:smoker, tile.smoker.name
+=======
+psi:material:0, Psidust
+psi:material:1, Psimetal Ingot
+psi:material:2, Psigem
+psi:material:3, Ebony Psimetal Ingot
+psi:material:4, Ivory Psimetal Ingot
+psi:material:5, Ebony Substance
+psi:material:6, Ivory Substance
+psi:cad_assembly:0, Iron CAD Assembly
+psi:cad_assembly:1, Gold CAD Assembly
+psi:cad_assembly:2, Psimetal CAD Assembly
+psi:cad_assembly:3, Ebony Psimetal CAD Assembly
+psi:cad_assembly:4, Ivory Psimetal CAD Assembly
+psi:cad_assembly:5, Creative CAD Assembly
+psi:cad_core:0, Basic CAD Core
+psi:cad_core:1, Overclocked CAD Core
+psi:cad_core:2, Conductive CAD Core
+psi:cad_core:3, Hyperclocked CAD Core
+psi:cad_core:4, Radiative CAD Core
+psi:cad_socket:0, Basic CAD Socket
+psi:cad_socket:1, Signaling CAD Socket
+psi:cad_socket:2, Large CAD Socket
+psi:cad_socket:3, Transmissive CAD Socket
+psi:cad_socket:4, Huge CAD Socket
+psi:cad_battery:0, Basic CAD Battery
+psi:cad_battery:1, Extended CAD Battery
+psi:cad_battery:2, Ultradense CAD Battery
+psi:cad_colorizer_:0, White CAD Colorizer
+psi:cad_colorizer_:1, Orange CAD Colorizer
+psi:cad_colorizer_:2, Magenta CAD Colorizer
+psi:cad_colorizer_:3, Light Blue CAD Colorizer
+psi:cad_colorizer_:4, Yellow CAD Colorizer
+psi:cad_colorizer_:5, Lime CAD Colorizer
+psi:cad_colorizer_:6, Pink CAD Colorizer
+psi:cad_colorizer_:7, Gray CAD Colorizer
+psi:cad_colorizer_:8, Light Gray CAD Colorizer
+psi:cad_colorizer_:9, Cyan CAD Colorizer
+psi:cad_colorizer_:10, Purple CAD Colorizer
+psi:cad_colorizer_:11, Blue CAD Colorizer
+psi:cad_colorizer_:12, Brown CAD Colorizer
+psi:cad_colorizer_:13, Green CAD Colorizer
+psi:cad_colorizer_:14, Red CAD Colorizer
+psi:cad_colorizer_:15, Black CAD Colorizer
+psi:cad_colorizer_:16, Full-Spectrum CAD Colorizer
+psi:cad_colorizer_:17, Psi CAD Colorizer
+psi:spell_bullet:0, Spell Bullet
+psi:spell_bullet:2, Projectile Spell Bullet
+psi:spell_bullet:4, Loopcast Spell Bullet
+psi:spell_bullet:6, Circle Spell Bullet
+psi:spell_bullet:8, Grenade Spell Bullet
+psi:spell_bullet:10, Charge Spell Bullet
+psi:spell_bullet:12, Mine Spell Bullet
+psi:spell_drive, item.spell_drive.name
+psi:detonator, item.detonator.name
+psi:exosuit_controller, item.exosuit_controller.name
+psi:exosuit_sensor:0, Exosuit Light Sensor
+psi:exosuit_sensor:1, Exosuit Water Sensor
+psi:exosuit_sensor:2, Exosuit Heat Sensor
+psi:exosuit_sensor:3, Exosuit Stress Sensor
+psi:vector_ruler, item.vector_ruler.name
+psi:cad, item.cad.name
+psi:psimetal_shovel, item.psimetal_shovel.name
+psi:psimetal_pickaxe, item.psimetal_pickaxe.name
+psi:psimetal_axe, item.psimetal_axe.name
+psi:psimetal_sword, item.psimetal_sword.name
+psi:psimetal_exosuit_helmet, item.psimetal_exosuit_helmet.name
+psi:psimetal_exosuit_chestplate, item.psimetal_exosuit_chestplate.name
+psi:psimetal_exosuit_leggings, item.psimetal_exosuit_leggings.name
+psi:psimetal_exosuit_boots, item.psimetal_exosuit_boots.name
+psi:cad_assembler, tile.cad_assembler.name
+psi:programmer, Programmer
+psi:psi_decorative:0, Psidust Block
+psi:psi_decorative:1, Psimetal Block
+psi:psi_decorative:2, Psigem Block
+psi:psi_decorative:3, Dark Psimetal Plate
+psi:psi_decorative:4, Dark Psimetal Flow Plate
+psi:psi_decorative:5, tile.psi:psimetal_plate_white.name
+psi:psi_decorative:6, tile.psi:psimetal_plate_white_light.name
+psi:psi_decorative:7, Ebony Psimetal Block
+psi:psi_decorative:8, Ivory Psimetal Block
+psi:conjured, tile.conjured.name
+>>>>>>> Stashed changes
 quark:glowstone_dust_block, tile.glowstone_dust_block.name
 quark:gunpowder_block, tile.gunpowder_block.name
 quark:arrow_ender, item.arrow_ender.name
@@ -25499,6 +25916,7 @@ quark:ender_watcher, tile.ender_watcher.name
 quark:iron_rod, tile.iron_rod.name
 quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
 quark:rain_detector, tile.rain_detector.name
+<<<<<<< Updated upstream
 quark:witch_hat, item.witch_hat.name
 =======
 psi:material:0, Psidust
@@ -25582,6 +26000,8 @@ psi:psi_decorative:7, Ebony Psimetal Block
 psi:psi_decorative:8, Ivory Psimetal Block
 psi:conjured, tile.conjured.name
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -25664,6 +26084,7 @@ quark:leaf_carpet:4, Acacia Leaf Carpet
 quark:leaf_carpet:5, Dark Oak Leaf Carpet
 quark:glass_item_frame, item.glass_item_frame.name
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 quark:chute, tile.chute.name
 quark:ender_watcher, tile.ender_watcher.name
@@ -25715,6 +26136,8 @@ quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
 quark:basalt_wall, tile.basalt_wall.name
 quark:smoker, tile.smoker.name
 quark:witch_hat, item.witch_hat.name
+=======
+>>>>>>> Stashed changes
 quark:glass_shards:0, Glass Shard
 quark:glass_shards:1, White Glass Shard
 quark:glass_shards:2, Orange Glass Shard
@@ -25732,6 +26155,10 @@ quark:glass_shards:13, Brown Glass Shard
 quark:glass_shards:14, Green Glass Shard
 quark:glass_shards:15, Red Glass Shard
 quark:glass_shards:16, Black Glass Shard
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+quark:witch_hat, item.witch_hat.name
 >>>>>>> Stashed changes
 quark:reed_block, tile.reed_block.name
 quark:reed_block_stairs, tile.reed_block_stairs.name
@@ -26020,6 +26447,7 @@ quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 quark:glowstone_dust_block, tile.glowstone_dust_block.name
 quark:gunpowder_block, tile.gunpowder_block.name
@@ -26048,6 +26476,52 @@ quark:black_ash, tile.black_ash.name
 quark:ancient_tome, item.ancient_tome.name
 quark:soul_powder, item.soul_powder.name
 quark:enderdragon_scale, item.enderdragon_scale.name
+>>>>>>> Stashed changes
+=======
+quark:pirate_hat, item.pirate_hat.name
+quark:marble:0, Marble
+quark:marble:1, Polished Marble
+quark:stone_marble_slab:0, Marble Slab
+quark:stone_marble_stairs, tile.stone_marble_stairs.name
+quark:marble_wall, tile.marble_wall.name
+quark:limestone:0, Limestone
+quark:limestone:1, Polished Limestone
+quark:stone_limestone_slab:0, Limestone Slab
+quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
+quark:limestone_wall, tile.limestone_wall.name
+quark:crystal:0, White Cave Crystal
+quark:crystal:1, Red Cave Crystal
+quark:crystal:2, Orange Cave Crystal
+quark:crystal:3, Yellow Cave Crystal
+quark:crystal:4, Green Cave Crystal
+quark:crystal:5, Blue Cave Crystal
+quark:crystal:6, Indigo Cave Crystal
+quark:crystal:7, Violet Cave Crystal
+quark:biome_cobblestone:0, Brimstone
+quark:biome_cobblestone:1, Permafrost
+quark:fire_stone_slab:0, Brimstone Slab
+quark:fire_stone_stairs, tile.fire_stone_stairs.name
+quark:icy_stone_slab:0, Permafrost Slab
+quark:icy_stone_stairs, tile.icy_stone_stairs.name
+quark:fire_stone_wall, tile.fire_stone_wall.name
+quark:icy_stone_wall, tile.icy_stone_wall.name
+quark:glowcelium, tile.glowcelium.name
+quark:glowshroom, tile.glowshroom.name
+quark:soul_bead, item.soul_bead.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, Block of Biotite
+quark:biotite_block:1, Chiseled Biotite Block
+quark:biotite_block:2, Pillar Biotite Block
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, Biotite Slab
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:basalt:0, Basalt
+quark:basalt:1, Polished Basalt
+quark:stone_basalt_slab:0, Basalt Slab
+quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
+quark:basalt_wall, tile.basalt_wall.name
+quark:smoker, tile.smoker.name
 >>>>>>> Stashed changes
 base:wrench, Wrench
 chiselsandbits:chisel_stone, Stone Chisel
@@ -26264,8 +26738,15 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Copper
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Tin
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Bronze
 chiselsandbits:block_bit:0, Chiseled Bit - Ash Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Charcoal
-chiselsandbits:block_bit:0, Chiseled Bit - Loam
+chiselsandbits:block_bit:0, Chiseled Bit - Honey Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Simmering Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Stringy Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Frozen Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Dripping Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Silky Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Parched Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Mellow Comb Block
 chiselsandbits:block_bit:0, Chiseled Bit - Larch Wood Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Teak Wood Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Desert Acacia Wood Up/Down
@@ -26394,15 +26875,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Birch Wood Planks (Fireproof)
 chiselsandbits:block_bit:0, Chiseled Bit - Jungle Wood Planks (Fireproof)
 chiselsandbits:block_bit:0, Chiseled Bit - Acacia Wood Planks (Fireproof)
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Oak Wood Planks (Fireproof)
-chiselsandbits:block_bit:0, Chiseled Bit - Honey Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Simmering Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Stringy Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Frozen Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Dripping Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Silky Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Parched Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Mossy Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Mellow Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Charcoal
+chiselsandbits:block_bit:0, Chiseled Bit - Loam
 chiselsandbits:block_bit:0, Chiseled Bit - Apple Wood Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Fig Wood Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Butternut Wood Up/Down
@@ -29882,6 +30356,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Engraved Infused Wood
 chiselsandbits:block_bit:0, Chiseled Bit - Enriched Infused Wood
 chiselsandbits:block_bit:0, Chiseled Bit - Vibrant Infused Wood
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
 chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
@@ -29904,6 +30379,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
 chiselsandbits:block_bit:0, Chiseled Bit - Basalt
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
 <<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
 chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
 chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
@@ -30027,6 +30504,18 @@ chiselsandbits:block_bit:0, Chiseled Bit - Brown Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Green Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Red Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Black Quilted Wool
+chiselsandbits:block_bit:0, Chiseled Bit - Marble
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Marble
+chiselsandbits:block_bit:0, Chiseled Bit - Limestone
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Limestone
+chiselsandbits:block_bit:0, Chiseled Bit - Brimstone
+chiselsandbits:block_bit:0, Chiseled Bit - Permafrost
+chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Basalt
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
 chiselsandbits:block_bit:0, Chiseled Bit - Litherite
 chiselsandbits:block_bit:0, Chiseled Bit - Litherite Paver
 chiselsandbits:block_bit:0, Chiseled Bit - Litherite Bricks
@@ -32268,31 +32757,33 @@ rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
 rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
 rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
+=======
+>>>>>>> Stashed changes
 rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
 rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
-rftoolsdim:known_dimlet:10, Effect Dimlet (None)
-rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
 rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
 rftoolsdim:known_dimlet:9, Digit Dimlet (3)
-rftoolsdim:known_dimlet:9, Digit Dimlet (2)
-rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (0)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
+rftoolsdim:known_dimlet:9, Digit Dimlet (2)
 rftoolsdim:known_dimlet:9, Digit Dimlet (5)
 rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
+rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
 rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
 rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+<<<<<<< Updated upstream
 =======
 rftoolsdim:known_dimlet:9, Digit Dimlet (7)
 rftoolsdim:known_dimlet:9, Digit Dimlet (8)
@@ -32319,6 +32810,13 @@ rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
 rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
 rftoolsdim:known_dimlet:9, Digit Dimlet (0)
 rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+>>>>>>> Stashed changes
+=======
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:7, Feature Dimlet (None)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
 >>>>>>> Stashed changes
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
@@ -32435,13 +32933,6 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -32462,6 +32953,13 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.natura.edibles.0, item.crated.natura.edibles.0.name
 forestry:crated.natura.edibles.1, item.crated.natura.edibles.1.name
 forestry:crated.natura.edibles.11, item.crated.natura.edibles.11.name
