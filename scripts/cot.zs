@@ -2,7 +2,7 @@
 //cot.zs
 //By Kaperios (CJWilk did some Copy-Pasting too :p)
 
-//imports
+//Imports
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 import mods.contenttweaker.VanillaFactory;
@@ -11,6 +11,8 @@ import mods.contenttweaker.Part;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.MaterialBuilder;
 import mods.contenttweaker.MaterialPart;
+import mods.contenttweaker.PartBuilder;
+import mods.contenttweaker.PartType;
 
 //Material System - Overworld Ores
 var iron = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iron").setColor(11974326).build();
@@ -49,6 +51,10 @@ var tungsten = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("
 var iridium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(13092316).build();
 var mithril = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Mithril").setColor(6592956).build();
 
+//Parts
+var chunk = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("chunk").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("chunk").build();
+var rocky_chunk = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("rocky_chunk").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("rockyChunk").build();
+
 //Strings
 var metals1 = [copper, tin, iron, aluminum] as Material[];
 var metals2 = [silver, lead, nickel, gold, uranium] as Material[];
@@ -60,8 +66,9 @@ var alloys3 = [enderium, tungstensteel, tungsten, iridium, mithril] as Material[
 var netherAlloy = [manyullyn] as Material[];
 var parts = ["ingot", "dust", "gear", "nugget", "plate", "rod"] as string[];
 var oreTypes1 = ["dense_ore", "ore"] as string[];
-
-//Loops
+var lightMetals = [copper, tin, iron, aluminum, silver, lead, nickel, gold] as Material[];
+var chunks = [chunk, rocky_chunk] as Part[];
+//Registering
 for i, metal1 in metals1 {
     metal1.registerParts(parts);
     var ores1 = metal1.registerParts(oreTypes1);
@@ -165,4 +172,8 @@ for i, netherAlloy in netherAlloy {
     blockNetherAlloyData.addDataValue("resistance", "45");
     blockNetherAlloyData.addDataValue("harvestTool", "pickaxe");
     blockNetherAlloyData.addDataValue("harvestLevel", "4");
+}
+
+for i, lightMetal in lightMetals {
+    lightMetal.registerParts(chunks);
 }
