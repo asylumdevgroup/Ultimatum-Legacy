@@ -1,12 +1,6 @@
 #EnderIO.zs
 #By CJWilk
 
-#No Alloys in TiC Smeltery
-mods.tconstruct.Alloy.removeRecipe(<liquid:energetic_alloy>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:vibrant_alloy>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:conductive_iron>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:pulsating_iron>);
-
 #No Simple Machines + Chassis (-Stirling Generator)
 mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:item_material>);
