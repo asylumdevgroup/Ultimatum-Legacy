@@ -137,14 +137,11 @@ XML editor will display that as tooltips when editing this file.
   </recipe>
 
   <recipe name="Ender Pearl Nuggets" required="true">
-    <crafting>
-      <shapeless>
-        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
-        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
-        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
-      </shapeless>
+    <alloying energy="2000">
+      <input name="nuggetEnderpearl" amount="9"/>
       <output name="oredict:enderpearl"/>
-    </crafting>
+    </alloying>
+    <!-- Note: The same inputs as a 'crafting' gives dustEnderPearl, see sagmill.xml -->
   </recipe>
 
   <recipe name="Dark Iron Bars" required="true">
@@ -1154,6 +1151,14 @@ XML editor will display that as tooltips when editing this file.
       </grid>
       <output name="itemInfinityRod"/>
     </crafting>
+  </recipe>
+
+  <recipe name="Infinity Goop">
+    <alloying energy="5000">
+      <input name="POWDER_INFINITY"/>
+      <input name="itemClay"/>
+      <output name="INFINITY_GOOP"/>
+    </alloying>
   </recipe>
 
 </enderio:recipes>
