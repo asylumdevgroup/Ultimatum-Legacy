@@ -49,14 +49,6 @@ recipes.remove(<thermalfoundation:material:24>);
 recipes.addShaped(<enderio:item_material:9>, [[null, <ore:stickWood>, null],[<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<enderio:item_material:10>, [[<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>],[<ore:stickWood>, null, <ore:stickWood>], [<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>]]);
 
-#Tesla Core Lib Gears Removal
-<ore:gearWood>.remove(<teslacorelib:gear_wood>);
-<ore:gearStone>.remove(<teslacorelib:gear_stone>);
-<ore:gearDiamond>.remove(<teslacorelib:gear_diamond>);
-mods.jei.JEI.removeAndHide(<teslacorelib:gear_wood>);
-mods.jei.JEI.removeAndHide(<teslacorelib:gear_stone>);
-mods.jei.JEI.removeAndHide(<teslacorelib:gear_diamond>);
-
 #Ender IO Gears Changes
 recipes.remove(<enderio:item_material:10>);
 recipes.remove(<enderio:item_material:9>);
