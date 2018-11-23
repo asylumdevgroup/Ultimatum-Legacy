@@ -12,7 +12,9 @@ var lightIngots = [
     <materialpart:copper:ingot>,
     <materialpart:tin:ingot>,
     <materialpart:silver:ingot>,
-    <materialpart:lead:ingot>
+    <materialpart:lead:ingot>,
+	<materialpart:aluminum:ingot>,
+	<materialpart:nickel:ingot>
 ];
 
 #Add Tooltip to Vanilla Tools for Silent Gear
@@ -54,6 +56,9 @@ furnace.remove(<thermalfoundation:material:135>);
 furnace.remove(<thermalfoundation:material:134>);
 furnace.remove(<minecraft:iron_ingot>);
 furnace.remove(<thermalfoundation:material:128>);
+for item in lightIngots {
+	furnace.remove(item);
+}
 
 #Engineer's Hammer
 recipes.addShaped("engineersHammer", <immersiveengineering:tool>, [
