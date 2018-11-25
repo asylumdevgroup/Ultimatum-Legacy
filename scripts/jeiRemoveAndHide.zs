@@ -73,10 +73,7 @@ var removal = [
     <bloodmagic:soul_gem:1>.withTag({souls: 256.0}),
     <bloodmagic:soul_gem:2>.withTag({souls: 1024.0}),
     <bloodmagic:soul_gem:3>.withTag({souls: 4096.0}),
-    <ceramics:clay_bucket>.withTag({}),
-    <elulib:test>,
-    <elulib:multiblock_slave_empty>,
-    <elulib:multiblock_slave_modular>
+    <ceramics:clay_bucket>.withTag({})
 ] as IItemStack[];
 
 #Removal and Hiding

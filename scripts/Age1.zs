@@ -4,19 +4,19 @@
 #Imports
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.contenttweaker.MaterialPart;
-import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 #Arrays
 var lightIngots = [
-    <materialpart:iron:ingot>,
-    <materialpart:gold:ingot>,
-    <materialpart:copper:ingot>,
-    <materialpart:tin:ingot>,
-    <materialpart:silver:ingot>,
-    <materialpart:lead:ingot>,
-	<materialpart:aluminum:ingot>,
-	<materialpart:nickel:ingot>
-] as IItemStack[];
+    <ore:ingotIron>,
+	<ore:ingotGold>,
+	<ore:ingotCopper>,
+	<ore:ingotTin>,
+	<ore:ingotSilver>,
+	<ore:ingotLead>,
+	<ore:ingotAluminum>,
+	<ore:ingotNickel>
+] as IOreDictEntry[];
 
 #Add Tooltip to Vanilla Tools for Silent Gear
 <minecraft:stone_shovel>.addTooltip(format.red("Use Silent Gear's Tools!"));
@@ -57,8 +57,13 @@ furnace.remove(<thermalfoundation:material:135>);
 furnace.remove(<thermalfoundation:material:134>);
 furnace.remove(<minecraft:iron_ingot>);
 furnace.remove(<thermalfoundation:material:128>);
-for ingot in lightIngots {
-	furnace.remove(ingot);
+# For each IOreDicEntry in the array of OreDictionariesEntries
+for dict in lightIngots{
+    # For each ingot in the dictionary
+    for ingot in dict.items{
+        # Remove it from the furnace
+        furnace.remove(ingot);
+    }
 }
 
 #Engineer's Hammer
@@ -79,11 +84,27 @@ recipes.addShaped("basicWorktable", <artisanworktables:worktable:5>,[
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<thaumcraft:plank_greatwood>, null, <thaumcraft:plank_greatwood>]
 ]);
+#Basic Workstation
+recipes.addShaped("basicWorkstation", <artisanworktables:workstation:5>,[
+    [<ore:plankWood>, <artisanworktables:worktable:5>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:ingotIron>,<ore:ingotIron>, <ore:ingotIron>]
+]);
 #Mason's Worktable
 recipes.addShaped("masonsWorktable", <artisanworktables:worktable:2>, [
     [<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:brick_block>],
     [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>],
     [null, <artisanworktables:worktable:5>]
+]);
+#Mason's Workstation
+recipes.addShaped("masonsWorkstation", <artisanworktables:workstation:2>, [
+    [<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:brick_block>],
+    [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>],
+    [null, <artisanworktables:workstation:5>]
+]);
+recipes.addShaped("masonsWorkstationAlt", <artisanworktables:workstation:2>, [
+    [null, <artisanworktables:worktable:2>, null],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
 #Coke Bricks
 recipes.remove(<immersiveengineering:stone_decoration>);
