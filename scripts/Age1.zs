@@ -4,6 +4,7 @@
 #Imports
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.contenttweaker.MaterialPart;
+import crafttweaker.item.IItemStack;
 
 #Arrays
 var lightIngots = [
@@ -15,7 +16,7 @@ var lightIngots = [
     <materialpart:lead:ingot>,
 	<materialpart:aluminum:ingot>,
 	<materialpart:nickel:ingot>
-];
+] as IItemStack[];
 
 #Add Tooltip to Vanilla Tools for Silent Gear
 <minecraft:stone_shovel>.addTooltip(format.red("Use Silent Gear's Tools!"));
@@ -56,8 +57,8 @@ furnace.remove(<thermalfoundation:material:135>);
 furnace.remove(<thermalfoundation:material:134>);
 furnace.remove(<minecraft:iron_ingot>);
 furnace.remove(<thermalfoundation:material:128>);
-for item in lightIngots {
-	furnace.remove(item);
+for ingot in lightIngots {
+	furnace.remove(ingot);
 }
 
 #Engineer's Hammer
