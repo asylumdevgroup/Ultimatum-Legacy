@@ -127,7 +127,31 @@ RecipeBuilder.get("mason")
     .addTool(<ore:artisansTrowel>, 5)
     .addOutput(<immersiveengineering:stone_decoration:10> * 2)
     .create();
-
+#Blast Bricks
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+RecipeBuilder.get("mason")
+    .setShaped([
+        [<ore:clayPorcelain>, <ceramics:clay_hard:1>, <ore:clayPorcelain>],
+        [<ceramics:clay_hard:1>, <ceramics:clay_hard:5>, <ceramics:clay_hard:1>],
+        [<ore:clayPorcelain>, <ceramics:clay_hard:1>, <ore:clayPorcelain>]
+    ])
+    .addTool(<ore:artisansTrowel>, 5)
+	.addTool(<ore:artisansChisel>, 5)
+    .addOutput(<immersiveengineering:stone_decoration:1> * 3)
+    .create();
+#Explosion Furnace (End of Age 1)
+recipes.remove(<prodigytech:explosion_furnace>);
+RecipeBuilder.get("basic")
+    .setShaped([
+        [<ore:ingotSteel>, <minecraft:stonebrick>, <ore:ingotSteel>],
+        [<minecraft:stonebrick>, <minecraft:flint_and_steel>, <minecraft:stonebrick>],
+        [<ore:ingotSteel>, <minecraft:stonebrick>, <ore:ingotSteel>]
+    ])
+	.setSecondaryIngredients([<minecraft:nether_brick> * 4, <minecraft:blaze_powder> * 4])
+    .addTool(<ore:artisansTrowel>, 5)
+	.addTool(<ore:artisansChisel>, 5)
+    .addOutput(<prodigytech:explosion_furnace>)
+    .create();
 #Silent Gear Templates
 
     #
