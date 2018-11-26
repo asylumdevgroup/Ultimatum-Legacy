@@ -6,15 +6,10 @@ var brickslab = <minecraft:stone_slab:4>;
 var log = <ore:logWood>;
 var plank = <ore:plankWood>;
 var stick = <ore:stickWood>;
-var silkmesh = <magneticraft:crafting:6>;
 
 #Crushing Table now requires bricks
 recipes.remove(<magneticraft:crushing_table>);
 recipes.addShaped(<magneticraft:crushing_table>, [[brickslab, brickslab, brickslab],[stick, plank, stick], [plank, log, plank]]);
-
-#Sluice Box no longer requires iron
-recipes.remove(<magneticraft:sluice_box>);
-recipes.addShaped(<magneticraft:crushing_table>, [[plank, stick, null],[silkmesh, plank, stick], [brickslab, brickslab, brickslab]]);
 
 #Add CoT Rocky Chunks to Crushing Table
 mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:10>, <contenttweaker:material_part:261>, true); #Iron
