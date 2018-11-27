@@ -72,7 +72,15 @@ recipes.addShaped("engineersHammer", <immersiveengineering:tool>, [
     [null, <ore:stickWood>, <ore:stone>], 
     [<ore:stickWood>]
 ]);
+#Crushing Table
+recipes.remove(<magneticraft:crushing_table>);
+recipes.addShaped("crushingTable", <magneticraft:crushing_table>, [
+	[<minecraft:stone_slab:4>, <minecraft:stone_slab:4>, <minecraft:stone_slab:4>],
+	[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>],
+	[<ore:plankWood>, <ore:logWood>, <ore:plankWood>]
+]);
 #Sluice Box
+recipes.remove(<magneticraft:sluice_box>);
 recipes.addShaped("sluiceBox", <magneticraft:sluice_box>, [
     [<ore:plankWood>, <ore:stickWood>],
     [<extraplanets:tools:2>, <ore:plankWood>, <ore:stickWood>],

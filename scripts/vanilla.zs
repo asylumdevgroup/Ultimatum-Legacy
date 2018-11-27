@@ -3,8 +3,8 @@
 
 #Bucket
 recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket>, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[null, <ore:ingotSteel>, null]]);
+recipes.addShaped("bucket", <minecraft:bucket>, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[null, <ore:ingotSteel>, null]]);
 
 #Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
-recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
+recipes.addShapeless("flintAndSteel", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
