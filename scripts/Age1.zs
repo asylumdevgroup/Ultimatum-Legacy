@@ -1,5 +1,5 @@
 #Age1.zs
-#By Buildmonger, CJWilk, Kaperios, and MCAdventureCity
+#By CJWilk, Kaperios, and MCAdventureCity
 
 #Imports
 import mods.artisanworktables.builder.RecipeBuilder;

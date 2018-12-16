@@ -2,6 +2,7 @@
 #By MCAdventureCity
 
 import mods.contenttweaker.MaterialPart;
+import mods.magneticraft.CrushingTable;
 
 #Add CoT Rocky Chunks to Crushing Table
 mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:10>, <materialpart:iron:rocky_chunk>, true); #Iron

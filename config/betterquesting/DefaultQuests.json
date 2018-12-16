@@ -1,0 +1,151 @@
+{
+  "format:8": "2.0.0",
+  "questDatabase:9": {},
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {},
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 1 - The Age of Stone",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {},
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 2 - The Age of Hot Air",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 1
+    },
+    "2:10": {
+      "quests:9": {},
+      "lineID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 3 - The Age of Forestry",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 2
+    },
+    "3:10": {
+      "quests:9": {},
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 4 - The Age of Machinery",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 3
+    },
+    "4:10": {
+      "quests:9": {},
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 5 - The Age of Ender",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 4
+    },
+    "5:10": {
+      "quests:9": {},
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 6 - The Age of Empowerment",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 5
+    },
+    "6:10": {
+      "quests:9": {},
+      "lineID:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 7 - The Age of Space",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 6
+    },
+    "7:10": {
+      "quests:9": {},
+      "lineID:3": 7,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 8 - The Age of Thermal",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 7
+    },
+    "8:10": {
+      "quests:9": {},
+      "lineID:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 9 - The Age of Technology",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 8
+    },
+    "9:10": {
+      "quests:9": {},
+      "lineID:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Age 10 - The Age of Ultimatum",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 9
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "pack_version:3": 0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}

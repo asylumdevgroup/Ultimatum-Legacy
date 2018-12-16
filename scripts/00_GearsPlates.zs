@@ -46,8 +46,8 @@ recipes.remove(<thermalfoundation:material:25>);
 recipes.remove(<thermalfoundation:material:24>);
 
 #Wood and Stone Gears Universal Recipe
-recipes.addShaped(<enderio:item_material:9>, [[null, <ore:stickWood>, null],[<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
-recipes.addShaped(<enderio:item_material:10>, [[<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>],[<ore:stickWood>, null, <ore:stickWood>], [<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>]]);
+recipes.addShaped("woodgear", <enderio:item_material:9>, [[null, <ore:stickWood>, null],[<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
+recipes.addShaped("stonegear", <enderio:item_material:10>, [[<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>],[<ore:stickWood>, null, <ore:stickWood>], [<ore:cobblestone>, <ore:stickWood>, <ore:cobblestone>]]);
 
 #Ender IO Gears Changes
 recipes.remove(<enderio:item_material:10>);
