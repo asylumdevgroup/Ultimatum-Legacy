@@ -46,6 +46,10 @@ var lightIngots = [
 <minecraft:wooden_axe>.addTooltip(format.red("Use Silent Gear's Tools!"));
 <minecraft:stone_sword>.addTooltip(format.red("Use Silent Gear's Tools!"));
 
+#Quartz Grindstone is Disabled
+recipes.remove(<appliedenergistics2:grindstone>);
+<appliedenergistics2:grindstone>.addTooltip(format.red("Disabled as the Rotary Grinder is your first ore doubling."));
+
 #Furnace ore smelting removal
 furnace.remove(<minecraft:gold_ingot>);
 furnace.remove(<thermalfoundation:material:129>);
