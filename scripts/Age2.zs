@@ -52,7 +52,7 @@ recipes.addShaped("incinerator", <prodigytech:rotary_grinder>, [
 ]);
 #Blower Furnace
 recipes.remove(<prodigytech:blower_furnace>);
-recipes.addShaped("incinerator", <prodigytech:incinerator>, [
+recipes.addShaped("blowerFurnace", <prodigytech:blower_furnace>, [
     [<ore:ingotFerramic>, <ore:ingotSteel>, <ore:ingotFerramic>], 
     [<ore:ingotFerramic>, <natura:netherrack_furnace>, <ore:ingotFerramic>], 
     [<ore:ingotFerramic>, <ore:ingotSteel>, <ore:ingotFerramic>]
