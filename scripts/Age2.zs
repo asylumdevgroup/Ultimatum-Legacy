@@ -45,7 +45,7 @@ recipes.addShaped("incinerator", <prodigytech:incinerator>, [
 ]);
 #Rotary Grinder
 recipes.remove(<prodigytech:rotary_grinder>);
-recipes.addShaped("incinerator", <prodigytech:rotary_grinder>, [
+recipes.addShaped("rotaryGrinder", <prodigytech:rotary_grinder>, [
     [<ore:itemFlint>, <ore:itemFlint>, <ore:itemFlint>], 
     [<ore:ingotFerramic>, <ore:gearFerramic>, <ore:ingotFerramic>], 
     [<ore:ingotFerramic>, <ore:ingotSteel>, <ore:ingotFerramic>]

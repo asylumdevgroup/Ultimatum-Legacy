@@ -72,14 +72,14 @@ for dict in lightIngots{
 }
 #Add CoT Rocky Chunks to Crushing Table
 
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:10>, <materialpart:iron:rocky_chunk>, true); #Iron
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:4>, <materialpart:gold:rocky_chunk>, true); #Gold
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_0:4>, <materialpart:copper:rocky_chunk>, true); #Copper
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:5>, <materialpart:tin:rocky_chunk>, true); #Tin
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:10>, <materialpart:silver:rocky_chunk>, true); #Silver
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:1>, <materialpart:lead:rocky_chunk>, true); #Lead
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:9>, <materialpart:aluminum:rocky_chunk>, true); #Aluminum
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:12>, <materialpart:nickel:rocky_chunk>, true); #Nickel
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:10>, <magneticraft:rocky_chunks>, true); #Iron
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:4>, <magneticraft:rocky_chunks:1>, true); #Gold
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_0:4>, <magneticraft:rocky_chunks:2>, true); #Copper
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:5>, <magneticraft:rocky_chunks:13>, true); #Tin
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:10>, <magneticraft:rocky_chunks:12>, true); #Silver
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:1>, <magneticraft:rocky_chunks:3>, true); #Lead
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:9>, <magneticraft:rocky_chunks:7>, true); #Aluminum
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:12>, <magneticraft:rocky_chunks:10>, true); #Nickel
 
 #Engineer's Hammer
 recipes.addShaped("engineersHammer", <immersiveengineering:tool>, [
