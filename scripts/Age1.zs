@@ -81,6 +81,14 @@ mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_2:1>,
 mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:9>, <magneticraft:rocky_chunks:7>, true); #Aluminum
 mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:sub_block_holder_1:12>, <magneticraft:rocky_chunks:10>, true); #Nickel
 
+recipes.addShapeless("ironRockyChunk", <materialpart:iron:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_2:10>]);
+recipes.addShapeless("goldRockyChunk", <materialpart:gold:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_2:4>]);
+recipes.addShapeless("copperRockyChunk", <materialpart:copper:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_0:4>]);
+recipes.addShapeless("tinRockyChunk", <materialpart:tin:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_2:5>]);
+recipes.addShapeless("silverRockyChunk", <materialpart:silver:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_1:10>]);
+recipes.addShapeless("leadRockyChunk", <materialpart:lead:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_2:1>]);
+recipes.addShapeless("aluminumRockyChunk", <materialpart:aluminum:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_1:9>]);
+recipes.addShapeless("nickelRockyChunk", <materialpart:nickel:rocky_chunk>,[<ore:artisansHammer>.transformDamage(1), <contenttweaker:sub_block_holder_1:12>]);
 #Engineer's Hammer
 recipes.addShaped("engineersHammer", <immersiveengineering:tool>, [
     [null, <ore:stone>, <ore:string>], 

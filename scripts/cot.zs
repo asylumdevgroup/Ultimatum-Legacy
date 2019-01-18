@@ -14,6 +14,16 @@ import mods.contenttweaker.MaterialPart;
 import mods.contenttweaker.PartBuilder;
 import mods.contenttweaker.PartType;
 
+//VanillaFactory - Forestry Replacements
+var treatedCasing = VanillaFactory.createItem("treated_casing");
+var bronzeCasing = VanillaFactory.createItem("bronze_casing");
+var ironCasing = VanillaFactory.createItem("iron_casing");
+var diamondCasing = VanillaFactory.createItem("diamond_casing");
+treatedCasing.register();
+bronzeCasing.register();
+ironCasing.register();
+diamondCasing.register();
+
 //Material System - Overworld Ores
 var iron = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Iron").setColor(11974326).build();
 var gold = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16580431).build();
