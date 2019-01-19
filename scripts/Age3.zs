@@ -37,9 +37,15 @@ recipes.addShaped("ironCasing", <contenttweaker:iron_casing>, [
     [<materialpart:iron:ingot>, <contenttweaker:bronze_casing>, <materialpart:iron:ingot>], 
     [<materialpart:iron:ingot>, <materialpart:iron:ingot>, <materialpart:iron:ingot>]
 ]);
-#Iron Casing
+#Diamond Casing
 recipes.addShaped("diamondCasing", <contenttweaker:diamond_casing>, [
     [<minecraft:diamond>, <pneumaticcraft:ingot_iron_compressed>, <minecraft:diamond>], 
     [<pneumaticcraft:ingot_iron_compressed>, <contenttweaker:iron_casing>, <pneumaticcraft:ingot_iron_compressed>], 
     [<minecraft:diamond>, <pneumaticcraft:ingot_iron_compressed>, <minecraft:diamond>]
+]);
+#Engineer's Workstation
+recipes.addShaped("engWorkstation", <artisanworktables:workstation:6>, [
+    [<calculator:reinforcedironingot>, <ore:ingotBronze>, <calculator:reinforcedironingot>], 
+    [<ore:ingotBronze>, <contenttweaker:diamond_casing>, <ore:ingotBronze>], 
+    [<ore:ingotSteel>, <artisanworktables:workstation:5>, <ore:ingotSteel>]
 ]);
