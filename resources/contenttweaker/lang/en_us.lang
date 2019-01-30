@@ -1,2 +1,7 @@
 contenttweaker.part.chunk=%s Chunk
 contenttweaker.part.rocky_chunk=%s Rocky Chunk
+
+item.contenttweaker.treated_casing.name=Treated Casing
+item.contenttweaker.bronze_casing.name=Bronze Casing
+item.contenttweaker.iron_casing.name=Iron Casing
+item.contenttweaker.diamond_casing.name=Diamond Casing

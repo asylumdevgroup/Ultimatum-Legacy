@@ -4,6 +4,9 @@
 #Imports
 
 
+#Enriched Gold to Sci Calc
+mods.calculator.basic.removeRecipe(<calculator:enrichedgold>);
+mods.calculator.scientific.addRecipe(<minecraft:gold_ingot>, <minecraft:redstone>, <calculator:enrichedgold> * 4);
 
 #Power Cube
 recipes.remove(<calculator:powercube>);

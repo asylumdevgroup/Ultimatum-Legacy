@@ -4,6 +4,8 @@
 #Imports
 
 import mods.prodigytech.rotarygrinder;
+import crafttweaker.item.IItemStack;
+import mods.calculator.scientific;
 
 #Add Coal Dust to Rotary Grinder
 mods.prodigytech.rotarygrinder.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>);
@@ -57,3 +59,15 @@ recipes.addShaped("blowerFurnace", <prodigytech:blower_furnace>, [
     [<ore:ingotFerramic>, <natura:netherrack_furnace>, <ore:ingotFerramic>], 
     [<ore:ingotFerramic>, <ore:ingotSteel>, <ore:ingotFerramic>]
 ]);
+#Calculator (End of Age 2)
+recipes.remove(<calculator:calculator>);
+recipes.addShaped("basicCalc", <calculator:calculator>.withTag({Energy: 1000 as long}), [[<ore:ingotZorrasteel>, <calculator:calculatorscreen>, <ore:ingotZorrasteel>],[<minecraft:stone_button>, <calculator:calculatorassembly>, <minecraft:stone_button>], [<ore:ingotZorrasteel>, <minecraft:stone_button>, <ore:ingotZorrasteel>]]);
+<calculator:calculator>.addTooltip(format.red("Crafts Storing 1000 RF. Does not need to be Charged."));
+
+#Calculator Assembly
+recipes.remove(<calculator:calculatorassembly>);
+recipes.addShaped("calcAssembly", <calculator:calculatorassembly>, [[<ore:ingotFerramic>, <minecraft:stone_button>, <ore:ingotFerramic>],[<minecraft:stone_button>, <ore:dustRedstone>, <minecraft:stone_button>], [<ore:ingotFerramic>, <minecraft:stone_button>, <ore:ingotFerramic>]]);
+
+#Calculator Screen
+recipes.remove(<calculator:calculatorscreen>);
+recipes.addShaped("calcScreen", <calculator:calculatorscreen>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:glass>, <minecraft:redstone>, <minecraft:glass>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
