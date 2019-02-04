@@ -1,1 +1,20 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "prodigytech:guide": {
+      "viewedEntries": [
+        "prodigytech:introduction/explosion_furnace_advanced",
+        "prodigytech:introduction/explosion_furnace",
+        "prodigytech:misc/materials"
+      ],
+      "bookmarks": [],
+      "history": [
+        "prodigytech:misc/materials",
+        "prodigytech:introduction/explosion_furnace",
+        "prodigytech:introduction/explosion_furnace_advanced"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
