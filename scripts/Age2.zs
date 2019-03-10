@@ -5,11 +5,29 @@
 
 import mods.prodigytech.rotarygrinder;
 import crafttweaker.item.IItemStack;
-import mods.calculator.scientific;
 
 #Add Coal Dust to Rotary Grinder
 mods.prodigytech.rotarygrinder.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>);
 
+#Modularium
+recipes.remove(<modularmachinery:itemmodularium>);
+recipes.addShaped("modularium", <modularmachinery:itemmodularium> * 4, [
+    [<ore:ingotGold>, <ore:ingotFerramic>, <ore:ingotGold>], 
+    [<ore:ingotFerramic>, <prodigytech:primordium>, <ore:ingotFerramic>], 
+    [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>]
+]);
+#Hot Air Input Hatch
+recipes.addShaped("hotAirInput", <modulardiversity:blockhotairinputhatch>, [
+    [<ore:ingotFerramic>, null, <ore:ingotFerramic>], 
+    [null, <modularmachinery:blockcasing>, null], 
+    [<ore:ingotFerramic>, null, <ore:ingotFerramic>]
+]);
+#Hot Air Output Hatch
+recipes.addShaped("hotAirOutput", <modulardiversity:blockhotairoutputhatch>, [
+    [null, <ore:ingotFerramic>, null], 
+    [<ore:ingotFerramic>, <modularmachinery:blockcasing>, <ore:ingotFerramic>], 
+    [null, <ore:ingotFerramic>, null]
+]);
 #Raw Zorrasteel
 recipes.remove(<prodigytech:zorrasteel_raw>);
 recipes.addShaped("rawZorrasteel", <prodigytech:zorrasteel_raw>, [

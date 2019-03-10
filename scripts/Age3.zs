@@ -3,10 +3,13 @@
 
 #Imports
 
+import mods.calculator.basic;
+import mods.calculator.scientific;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 #Enriched Gold to Sci Calc
 mods.calculator.basic.removeRecipe(<calculator:enrichedgold>);
-mods.calculator.scientific.addRecipe(<minecraft:gold_ingot>, <minecraft:redstone>, <calculator:enrichedgold> * 4);
+mods.calculator.scientific.addRecipe(<materialpart:gold:ingot>, <minecraft:redstone>, <calculator:enrichedgold> * 4);
 
 #Power Cube
 recipes.remove(<calculator:powercube>);
@@ -51,4 +54,29 @@ recipes.addShaped("engWorkstation", <artisanworktables:workstation:6>, [
     [<calculator:reinforcedironingot>, <ore:ingotBronze>, <calculator:reinforcedironingot>], 
     [<ore:ingotBronze>, <contenttweaker:diamond_casing>, <ore:ingotBronze>], 
     [<ore:ingotSteel>, <artisanworktables:workstation:5>, <ore:ingotSteel>]
+]);
+#Alternate IE Vacuum Tube Recipe
+RecipeBuilder.get("engineer")
+    .setShaped([
+        [<ore:blockGlass, <ore:wireCopper>, <ore:blockGlass>],
+        [<ore:blockGlass>, <ore:wireCopper>, <ore:blockGlass>],
+        [<ore:ingotSteel>, <ore:wireCopper>, <ore:ingotSteel>]
+    ])
+    .addTool(<ore:artisansCutters>, 5)
+	.addTool(<ore:artisansPliers>, 5)
+    .addOutput(<immersiveengineering:material:26> * 2)
+    .create();
+#Redstone Engineering Block
+recipes.remove(<immersiveengineering:metal_decoration0:3>);
+recipes.addShaped("redstoneEngineeringBlock", <immersiveengineering:metal_decoration0:3>, [
+    [<materialpart:iron:ingot>, <ore:dustRedstone>, <materialpart:iron:ingot>], 
+    [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], 
+    [<materialpart:iron:ingot>, <ore:dustRedstone>, <materialpart:iron:ingot>]
+]);
+#Light Engineering Block (End of Age 3)
+recipes.remove(<immersiveengineering:metal_decoration0:4>);
+recipes.addShaped("lightEngineeringBlock", <immersiveengineering:metal_decoration0:4> * 2, [
+    [<materialpart:iron:ingot>, <immersiveengineering:material:8>, <materialpart:iron:ingot>], 
+    [<ore:ingotCopper>, <immersiveengineering:material:26>, <ore:ingotCopper>], 
+    [<materialpart:iron:ingot>, <immersiveengineering:material:8>, <materialpart:iron:ingot>]
 ]);
