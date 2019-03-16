@@ -25,6 +25,14 @@ recipes.addShaped("handCrankedGenerator", <calculator:handcrankedgenerator>, [
     [<immersiveengineering:treated_wood>, <calculator:powercube>, <immersiveengineering:treated_wood>], 
     [<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
 ]);
+#Pressure Chamber Wall
+recipes.remove(<pneumaticcraft:pressure_chamber_wall>);
+recipes.addShaped("pressureChamberWall", <pneumaticcraft:pressure_chamber_wall> * 8, [
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>], 
+    [<pneumaticcraft:ingot_iron_compressed>, <ore:ingotFerramic>, <pneumaticcraft:ingot_iron_compressed>], 
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
+]);
+
 #Treated Casing
 recipes.addShaped("treatedCasing", <contenttweaker:treated_casing>, [
     [<immersiveengineering:material>, <immersiveengineering:treated_wood>, <immersiveengineering:material>], 

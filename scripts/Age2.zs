@@ -84,8 +84,16 @@ recipes.addShaped("basicCalc", <calculator:calculator>.withTag({Energy: 1000 as 
 
 #Calculator Assembly
 recipes.remove(<calculator:calculatorassembly>);
-recipes.addShaped("calcAssembly", <calculator:calculatorassembly>, [[<ore:ingotFerramic>, <minecraft:stone_button>, <ore:ingotFerramic>],[<minecraft:stone_button>, <ore:dustRedstone>, <minecraft:stone_button>], [<ore:ingotFerramic>, <minecraft:stone_button>, <ore:ingotFerramic>]]);
+recipes.addShaped("calcAssembly", <calculator:calculatorassembly>, [
+	[<ore:ingotFerramic>, <minecraft:stone_button>, <ore:ingotFerramic>],
+	[<minecraft:stone_button>, <ore:dustRedstone>, <minecraft:stone_button>],
+	[<ore:ingotFerramic>, <minecraft:stone_button>, <ore:ingotFerramic>]
+]);
 
 #Calculator Screen
 recipes.remove(<calculator:calculatorscreen>);
-recipes.addShaped("calcScreen", <calculator:calculatorscreen>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:glass>, <minecraft:redstone>, <minecraft:glass>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+recipes.addShaped("calcScreen", <calculator:calculatorscreen>, [
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+	[<minecraft:glass>, <minecraft:redstone>, <minecraft:glass>],
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+]);

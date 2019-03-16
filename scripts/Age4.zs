@@ -29,7 +29,7 @@ mods.calculator.basic.addRecipe(<ore:fuelCoke>, <minecraft:wheat_seeds>, <calcul
 
 #Atomic Binder
 recipes.remove(<calculator:atomicbinder>);
-recipes.addShaped("atomicBinder", <calculator:atomicbinder>, [
+recipes.addShaped("atomicBinder", <calculator:atomicbinder> * 4, [
     [<calculator:enrichedcoal>, <calculator:reinforcedironingot>, <calculator:enrichedcoal>], 
     [<calculator:reinforcedironingot>, <calculator:enrichedgold>, <calculator:reinforcedironingot>], 
     [<calculator:enrichedcoal>, <calculator:reinforcedironingot>, <calculator:enrichedcoal>]
@@ -40,5 +40,13 @@ recipes.remove(<pneumaticcraft:refinery>);
 recipes.addShaped("refinery", <pneumaticcraft:refinery>, [
     [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>], 
     [<sonarcore:stableglass>, <calculator:flawlessdiamond>, <sonarcore:stableglass>], 
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
+]);
+
+#Plastic Mixer (Also End of Age 4)
+recipes.remove(<pneumaticcraft:plastic_mixer>);
+recipes.addShaped("plasticMixer", <pneumaticcraft:plastic_mixer>, [
+    [<pneumaticcraft:ingot_iron_compressed>, <sonarcore:stableglass>, <pneumaticcraft:ingot_iron_compressed>], 
+    [<sonarcore:stableglass>, <calculator:firediamond>, <sonarcore:stableglass>], 
     [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
 ]);
