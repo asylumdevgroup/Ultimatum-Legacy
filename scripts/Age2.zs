@@ -9,6 +9,9 @@ import crafttweaker.item.IItemStack;
 #Add Coal Dust to Rotary Grinder
 mods.prodigytech.rotarygrinder.addRecipe(<minecraft:coal>, <thermalfoundation:material:768>);
 
+#Remove Magnetic Reassembler (Doesn't work with UniDict)
+recipes.remove(<prodigytech:magnetic_reassembler>);
+<prodigytech:magnetic_reassembler>.addTooltip(format.red("Disabled because it isn't supported by UniDict."));
 #Modularium
 recipes.remove(<modularmachinery:itemmodularium>);
 recipes.addShaped("modularium", <modularmachinery:itemmodularium> * 4, [

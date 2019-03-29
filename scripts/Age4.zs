@@ -6,7 +6,59 @@
 import mods.calculator.basic;
 import mods.calculator.scientific;
 import mods.calculator.atomic;
+import mods.jei.JEI.removeAndHide;
+import crafttweaker.item.IItemStack;
 
+#Remove and Hide
+var removal = [
+    <magneticraft:electric_furnace>,
+    <magneticraft:brick_furnace>,
+    <magneticraft:iron_gear>,
+    <magneticraft:steel_gear>,
+    <magneticraft:tungsten_gear>,
+    <magneticraft:copper_coil>.withTag({}),
+    <magneticraft:crafting:1>
+] as IItemStack[];
+
+for item in removal {
+    mods.jei.JEI.removeAndHide(item);
+}
+#Magneticraft Fabric Mesh (Fixes conflict with ExtraPlanets mesh)
+recipes.remove(<magneticraft:crafting:6>);
+recipes.addShaped("fabricMesh", <magneticraft:crafting:6>, [
+    [<harvestcraft:wovencottonitem>, <ore:string>, <harvestcraft:wovencottonitem>], 
+    [<ore:string>, <ore:string>, <ore:string>], 
+    [<harvestcraft:wovencottonitem>, <ore:string>, <harvestcraft:wovencottonitem>]
+]);
+#These Items By Default Use Light Plates, but are changed to use Ore-Dicted plates as the Crushing Table is disabled.
+#Fine Copper Wire
+recipes.remove(<magneticraft:crafting:3>);
+recipes.addShaped("fineCopperWire", <magneticraft:crafting:3> * 8, [
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
+    [<ore:ingotCopper>, <ore:plateIron>, <ore:ingotCopper>], 
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]
+]);
+#Magneticraft Motor
+recipes.remove(<magneticraft:crafting:2>);
+recipes.addShaped("magMotor", <magneticraft:crafting:2> * 2, [
+    [<ore:ingotLead>, <ore:plateIron>, null], 
+    [<magneticraft:crafting:3>, <ore:dustRedstone>, <ore:ingotIron>], 
+    [<ore:ingotLead>, <ore:plateIron>, null]
+]);
+#Magneticraft Machine Block
+recipes.remove(<magneticraft:multiblock_parts>);
+recipes.addShaped("magMachineBlock", <magneticraft:multiblock_parts>, [
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
+    [<ore:ingotIron>, <magneticraft:crafting:2>, <ore:ingotIron>], 
+    [<ore:plateLead>, <ore:plateLead>, <ore:plateLead>]
+]);
+#Magneticraft Wrench
+recipes.remove(<magneticraft:wrench>);
+recipes.addShaped("magWrench", <magneticraft:wrench>, [
+    [null, <ore:plateIron>, <ore:ingotIron>], 
+    [<ore:dustRedstone>, <ore:ingotIron>, null], 
+    [<ore:ingotIron>, <ore:dustRedstone>, null]
+]);
 #Algorithm Separator
 recipes.remove(<calculator:algorithmseparator>);
 recipes.addShaped("algorithmSeparator", <calculator:algorithmseparator>, [

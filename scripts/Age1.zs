@@ -120,11 +120,7 @@ recipes.addShaped("engineersHammer", <immersiveengineering:tool>, [
 ]);
 #Crushing Table
 recipes.remove(<magneticraft:crushing_table>);
-recipes.addShaped("crushingTable", <magneticraft:crushing_table>, [
-	[<minecraft:stone_slab:4>, <minecraft:stone_slab:4>, <minecraft:stone_slab:4>],
-	[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>],
-	[<ore:plankWood>, <ore:logWood>, <ore:plankWood>]
-]);
+<magneticraft:crushing_table>.addTooltip(format.red("Disabled due to incompatibility with ContentTweaker Materials."));
 #Sluice Box
 recipes.remove(<magneticraft:sluice_box>);
 recipes.addShaped("sluiceBox", <magneticraft:sluice_box>, [
