@@ -146,7 +146,12 @@
 		"iron": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "iron_ore",
+				"block": {
+					"name": "contenttweaker:sub_block_holder_2",
+					"properties": {
+						"sub_block_number": "10"
+					}
+				},
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
@@ -167,7 +172,12 @@
 		"gold": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "gold_ore",
+				"block": {
+					"name": "contenttweaker:sub_block_holder_2",
+					"properties": {
+						"sub_block_number": "4"
+					}
+				},
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
@@ -249,7 +259,7 @@
 		},
 
 		"mesa_gold": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {

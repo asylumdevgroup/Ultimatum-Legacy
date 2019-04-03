@@ -5,9 +5,9 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "contenttweaker:sub_block_holder_0",
 					"properties": {
-						"type": "copper"
+						"sub_block_number": "4"
 					}
 				},
 				"material": "minecraft:stone",
@@ -30,9 +30,9 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "contenttweaker:sub_block_holder_2",
 					"properties": {
-						"type": "tin"
+						"sub_block_number": "5"
 					}
 				},
 				"material": "minecraft:stone",
@@ -56,16 +56,16 @@
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
+						"name": "contenttweaker:sub_block_holder_1",
 						"properties": {
-							"type": "silver"
+							"sub_block_number": "10"
 						},
 						"weight": 80
 					},
 					{
-						"name": "thermalfoundation:ore",
+						"name": "contenttweaker:sub_block_holder_2",
 						"properties": {
-							"type": "lead"
+							"sub_block_number": "1"
 						},
 						"weight": 20
 					}
@@ -91,16 +91,16 @@
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
+						"name": "contenttweaker:sub_block_holder_2",
 						"properties": {
-							"type": "lead"
+							"sub_block_number": "1"
 						},
 						"weight": 90
 					},
 					{
-						"name": "thermalfoundation:ore",
+						"name": "contenttweaker:sub_block_holder_1",
 						"properties": {
-							"type": "silver"
+							"sub_block_number": "10"
 						},
 						"weight": 10
 					}
@@ -125,9 +125,9 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "contenttweaker:sub_block_holder_1",
 					"properties": {
-						"type": "nickel"
+						"sub_block_number": "12"
 					}
 				},
 				"material": "minecraft:stone",
@@ -150,9 +150,9 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "contenttweaker:sub_block_holder_0",
 					"properties": {
-						"type": "copper"
+						"sub_block_number": "4"
 					}
 				},
 				"material": "minecraft:stone",
@@ -183,9 +183,9 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "contenttweaker:sub_block_holder_0",
 					"properties": {
-						"type": "copper"
+						"sub_block_number": "4"
 					}
 				},
 				"material": "minecraft:stone",
@@ -203,6 +203,84 @@
 					1
 				]
 			}
-		}
+		},
+		"aluminum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:sub_block_holder_1",
+					"properties": {
+						"sub_block_number": "9"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:sub_block_holder_1",
+					"properties": {
+						"sub_block_number": "1"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 1,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"platinum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:sub_block_holder_0",
+					"properties": {
+						"sub_block_number": "12"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 1,
+			"min-height": 1,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 	}
 }
