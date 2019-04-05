@@ -74,6 +74,12 @@ RecipeBuilder.get("engineer")
 	.addTool(<ore:artisansPliers>, 5)
     .addOutput(<immersiveengineering:material:26> * 2)
     .create();
+#IE Engineer's Workbench
+recipes.remove(<immersiveengineering:wooden_device0:2>);
+recipes.addShaped("ieWorkbench", <immersiveengineering:wooden_device0:2>, [
+    [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>], 
+    [<ore:workbench>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:wooden_decoration>]
+]);
 #Redstone Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped("redstoneEngineeringBlock", <immersiveengineering:metal_decoration0:3>, [

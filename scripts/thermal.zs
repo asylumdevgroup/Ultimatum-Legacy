@@ -1,5 +1,5 @@
 #Thermal.zs
-#By CJWilk
+#By CJWilk and MCAdventureCity
 
 #No Coins + Coin Augment
 mods.jei.JEI.removeAndHide(<thermalfoundation:coin>);
@@ -91,6 +91,34 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:tool.fishing_rod_lead>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.fishing_rod_aluminum>);
 
 #Remove Shears
-
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_diamond>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_gold>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.shears_aluminum>);
 
 #Remove Hammers
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_steel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_platinum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_nickel>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_electrum>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_invar>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_bronze>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_constantan>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_diamond>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_iron>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_gold>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_copper>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_tin>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_silver>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_lead>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hammer_aluminum>);

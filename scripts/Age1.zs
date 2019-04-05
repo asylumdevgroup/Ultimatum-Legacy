@@ -202,6 +202,3 @@ RecipeBuilder.get("basic")
 	.addTool(<ore:artisansChisel>, 5)
     .addOutput(<prodigytech:explosion_furnace>)
     .create();
-#Silent Gear Templates
-
-    #
