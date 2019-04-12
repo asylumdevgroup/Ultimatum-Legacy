@@ -40,3 +40,19 @@ recipes.addShaped("machineChassis", <enderio:item_material:1>, [
     [<minecraft:iron_bars>, <enderio:item_basic_capacitor>, <minecraft:iron_bars>], 
     [<ore:plateIron>, <minecraft:iron_bars>, <ore:plateIron>]
 ]);
+
+#RFTools Machine Frame
+recipes.remove(<rftools:machine_frame>);
+recipes.addShaped("rftoolsFrame", <rftools:machine_frame>, [
+    [<ore:ingotDarkSteel>, <enderio:item_material:36>, <ore:ingotDarkSteel>], 
+    [<ore:nuggetVibrantAlloy>, <enderio:item_material:1>, <ore:nuggetVibrantAlloy>], 
+    [<ore:ingotDarkSteel>, <enderio:item_material:36>, <ore:ingotDarkSteel>]
+]);
+
+#Profiling Bench
+recipes.remove(<rockhounding_chemistry:machines_a:11>.withTag({Energy: 0, Fuel: 0}))
+recipes.addShaped("profilingBench", <rockhounding_chemistry:machines_a:11>.withTag({Energy: 0, Fuel: 0}), [
+    [<ore:ingotElectricalSteel>, <minecraft:piston>, <ore:ingotElectricalSteel>], 
+    [<ore:ingotElectricalSteel>, <enderio:item_material:54>, <ore:ingotElectricalSteel>], 
+    [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]
+]);
