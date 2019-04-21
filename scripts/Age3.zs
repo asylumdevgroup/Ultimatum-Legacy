@@ -15,7 +15,7 @@ mods.calculator.scientific.addRecipe(<materialpart:gold:ingot>, <minecraft:redst
 recipes.remove(<calculator:powercube>);
 recipes.addShaped("powerCube", <calculator:powercube>, [
     [<ore:ingotZorrasteel>, <ore:cobblestone>, <ore:ingotZorrasteel>], 
-    [<ore:cobblestone>, <prodigytech:energion_battery_double>, <ore:cobblestone>], 
+    [<ore:cobblestone>, <prodigytech:energion_dust>, <ore:cobblestone>], 
     [<ore:ingotZorrasteel>, <ore:cobblestone>, <ore:ingotZorrasteel>]
 ]);
 #Hand-Cranked Generator
