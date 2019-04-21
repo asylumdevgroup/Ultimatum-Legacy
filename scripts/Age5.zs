@@ -3,6 +3,7 @@
 
 #Imports
 
+import mods.artisanworktables.builder.RecipeBuilder;
 import mods.enderio.AlloySmelter;
 import mods.immersiveengineering.MetalPress;
 

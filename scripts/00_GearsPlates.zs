@@ -22,17 +22,6 @@ recipes.remove(<redstonearsenal:material:128>);
 recipes.remove(<thaumcraft:plate:3>);
 recipes.remove(<thaumcraft:plate:2>);
 recipes.remove(<immersiveengineering:metal:35>);
-recipes.remove(<materialpart:copper:plate>);
-recipes.remove(<materialpart:iron:plate>);
-recipes.remove(<materialpart:aluminum:plate>);
-recipes.remove(<materialpart:silver:plate>);
-recipes.remove(<materialpart:lead:plate>);
-recipes.remove(<materialpart:nickel:plate>);
-recipes.remove(<materialpart:gold:plate>);
-recipes.remove(<materialpart:brass:plate>);
-recipes.remove(<materialpart:steel:plate>);
-recipes.remove(<materialpart:electrum:plate>);
-recipes.remove(<materialpart:constantan:plate>);
 
 #No Crafting Gears in Crafting Table
 recipes.remove(<thermalfoundation:material:293>);
