@@ -1,1 +1,15 @@
-[]
+[
+	{
+		"mob": "aether_legacy:slider",
+		"item": "aether_legacy:iron_bubble"
+	},
+	{
+		"mob": "aether_legacy:valkyrie_queen",
+		"item": "aether_legacy:golden_feather"
+	},
+	{
+		"mob": "aether_legacy:sun_spirit",
+		"item": "aether_legacy:regeneration_stone"
+
+	}
+]
