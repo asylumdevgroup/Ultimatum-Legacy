@@ -1,0 +1,13 @@
+{
+	"type": "main",
+	"crafting_items": {
+		"normal": {
+			"item": "minecraft:planks",
+			"data": 0,
+			"oredict": "plankWood"
+        }
+    },
+	"availability": {
+		"enabled": false
+		}
+}

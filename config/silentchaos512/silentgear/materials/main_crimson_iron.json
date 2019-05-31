@@ -1,0 +1,13 @@
+{
+	"type": "main",
+	"crafting_items": {
+		"normal": {
+			"item": "silentgear:crimson_iron_ingot",
+			"data": 0,
+			"oredict": "ingotCrimsonIron"
+        }
+    },
+	"availability": {
+		"enabled": false
+		}
+}

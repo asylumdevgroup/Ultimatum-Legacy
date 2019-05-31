@@ -1,0 +1,13 @@
+{
+	"type": "main",
+	"crafting_items": {
+		"normal": {
+			"item": "minecraft:netherrack",
+			"data": 0,
+			"oredict": "netherrack"
+        }
+    },
+	"availability": {
+		"enabled": false
+		}
+}
