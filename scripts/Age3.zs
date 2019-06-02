@@ -9,7 +9,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 #Enriched Gold to Sci Calc
 mods.calculator.basic.removeRecipe(<calculator:enrichedgold>);
-mods.calculator.scientific.addRecipe(<materialpart:gold:ingot>, <minecraft:redstone>, <calculator:enrichedgold> * 4);
+mods.calculator.scientific.addRecipe(<ore:ingotGold>, <minecraft:redstone>, <calculator:enrichedgold> * 4);
 
 #Power Cube
 recipes.remove(<calculator:powercube>);
@@ -31,31 +31,6 @@ recipes.addShaped("pressureChamberWall", <pneumaticcraft:pressure_chamber_wall> 
     [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>], 
     [<pneumaticcraft:ingot_iron_compressed>, <ore:ingotFerramic>, <pneumaticcraft:ingot_iron_compressed>], 
     [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
-]);
-
-#Treated Casing
-recipes.addShaped("treatedCasing", <contenttweaker:treated_casing>, [
-    [<immersiveengineering:material>, <immersiveengineering:treated_wood>, <immersiveengineering:material>], 
-    [<immersiveengineering:treated_wood>, null, <immersiveengineering:treated_wood>], 
-    [<immersiveengineering:material>, <immersiveengineering:treated_wood>, <immersiveengineering:material>]
-]);
-#Bronze Casing
-recipes.addShaped("bronzeCasing", <contenttweaker:bronze_casing>, [
-    [<materialpart:bronze:ingot>, <materialpart:bronze:ingot>, <materialpart:bronze:ingot>], 
-    [<materialpart:bronze:ingot>, <contenttweaker:treated_casing>, <materialpart:bronze:ingot>], 
-    [<materialpart:bronze:ingot>, <materialpart:bronze:ingot>, <materialpart:bronze:ingot>]
-]);
-#Iron Casing
-recipes.addShaped("ironCasing", <contenttweaker:iron_casing>, [
-    [<materialpart:iron:ingot>, <materialpart:iron:ingot>, <materialpart:iron:ingot>], 
-    [<materialpart:iron:ingot>, <contenttweaker:bronze_casing>, <materialpart:iron:ingot>], 
-    [<materialpart:iron:ingot>, <materialpart:iron:ingot>, <materialpart:iron:ingot>]
-]);
-#Diamond Casing
-recipes.addShaped("diamondCasing", <contenttweaker:diamond_casing>, [
-    [<minecraft:diamond>, <pneumaticcraft:ingot_iron_compressed>, <minecraft:diamond>], 
-    [<pneumaticcraft:ingot_iron_compressed>, <contenttweaker:iron_casing>, <pneumaticcraft:ingot_iron_compressed>], 
-    [<minecraft:diamond>, <pneumaticcraft:ingot_iron_compressed>, <minecraft:diamond>]
 ]);
 #Engineer's Workstation
 recipes.addShaped("engWorkstation", <artisanworktables:workstation:6>, [
@@ -83,14 +58,14 @@ recipes.addShaped("ieWorkbench", <immersiveengineering:wooden_device0:2>, [
 #Redstone Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped("redstoneEngineeringBlock", <immersiveengineering:metal_decoration0:3>, [
-    [<materialpart:iron:ingot>, <ore:dustRedstone>, <materialpart:iron:ingot>], 
+    [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], 
     [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], 
-    [<materialpart:iron:ingot>, <ore:dustRedstone>, <materialpart:iron:ingot>]
+    [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
 ]);
 #Light Engineering Block (End of Age 3)
 recipes.remove(<immersiveengineering:metal_decoration0:4>);
 recipes.addShaped("lightEngineeringBlock", <immersiveengineering:metal_decoration0:4> * 2, [
-    [<materialpart:iron:ingot>, <immersiveengineering:material:8>, <materialpart:iron:ingot>], 
+    [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>], 
     [<ore:ingotCopper>, <immersiveengineering:material:26>, <ore:ingotCopper>], 
-    [<materialpart:iron:ingot>, <immersiveengineering:material:8>, <materialpart:iron:ingot>]
+    [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]
 ]);
