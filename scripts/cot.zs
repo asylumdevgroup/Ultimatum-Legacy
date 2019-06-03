@@ -16,10 +16,12 @@ import mods.contenttweaker.PartType;
 
 //VanillaFactory - Forestry Replacements
 var treatedCasing = VanillaFactory.createItem("treated_casing");
+var zorrasteelCasing = VanillaFactory.createItem("zorrasteel_casing");
 var bronzeCasing = VanillaFactory.createItem("bronze_casing");
 var ironCasing = VanillaFactory.createItem("iron_casing");
 var diamondCasing = VanillaFactory.createItem("diamond_casing");
 treatedCasing.register();
+zorrasteelCasing.register();
 bronzeCasing.register();
 ironCasing.register();
 diamondCasing.register();
