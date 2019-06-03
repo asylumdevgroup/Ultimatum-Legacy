@@ -3,14 +3,12 @@
         "tier": 4
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/enderium"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/enderium"
-        }
-    },
+		"normal": {
+			"item": "contenttweaker:material_part",
+			"data": 192,
+			"oredict": "ingotEnderium"
+		}
+	},
     "name": {
         "name": "Enderium",
         "translate": false

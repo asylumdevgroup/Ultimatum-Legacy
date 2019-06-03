@@ -3,13 +3,11 @@
         "tier": 1
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/copper"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/copper"
-        }
+		"normal": {
+			"item": "contenttweaker:material_part",
+			"data": 0,
+			"oredict": "ingotCopper"
+		}
     },
     "name": {
         "name": "Copper",

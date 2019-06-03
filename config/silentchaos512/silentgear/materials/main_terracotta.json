@@ -3,10 +3,10 @@
 	"crafting_items": {
 		"normal": {
 			"item": "minecraft:brick",
-			"data": 0,
+			"data": 0
         }
     },
 	"availability": {
 		"enabled": false
-		}
+	}
 }

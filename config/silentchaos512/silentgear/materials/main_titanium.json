@@ -3,13 +3,11 @@
         "tier": 3
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/titanium"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/titanium"
-        }
+		"normal": {
+			"item": "contenttweaker:material_part",
+			"data": 84,
+			"oredict": "ingotTitanium"
+		}
     },
     "name": {
         "name": "Titanium",

@@ -1,58 +1,7 @@
 {
   "savedSubBlockNames": {
-    "0": {
-      "0": "constantan_block",
-      "1": "tungstensteel_block",
-      "2": "aluminum_block",
-      "3": "invar_block",
-      "4": "copper_ore_minecraft_stone",
-      "5": "iridium_block",
-      "6": "aluminum_dense_ore_minecraft_stone",
-      "7": "refined_iron_block",
-      "8": "tin_dense_ore_minecraft_stone",
-      "9": "brass_block",
-      "10": "iron_block",
-      "11": "iron_dense_ore_minecraft_stone",
-      "12": "platinum_ore_minecraft_stone",
-      "13": "ardite_block",
-      "14": "enderium_block",
-      "15": "platinum_block"
-    },
-    "1": {
-      "0": "mithril_block",
-      "1": "uranium_ore_minecraft_stone",
-      "2": "nickel_block",
-      "3": "copper_block",
-      "4": "tin_block",
-      "5": "bronze_block",
-      "6": "lead_block",
-      "7": "electrum_block",
-      "8": "tungsten_block",
-      "9": "aluminum_ore_minecraft_stone",
-      "10": "silver_ore_minecraft_stone",
-      "11": "silver_block",
-      "12": "nickel_ore_minecraft_stone",
-      "13": "titanium_block",
-      "14": "copper_dense_ore_minecraft_stone",
-      "15": "cobalt_block"
-    },
-    "2": {
-      "0": "chrome_block",
-      "1": "lead_ore_minecraft_stone",
-      "2": "uranium_block",
-      "3": "cobalt_ore_minecraft_netherrack",
-      "4": "gold_ore_minecraft_stone",
-      "5": "tin_ore_minecraft_stone",
-      "6": "gold_block",
-      "7": "titanium_ore_minecraft_stone",
-      "8": "ardite_ore_minecraft_netherrack",
-      "9": "steel_block",
-      "10": "iron_ore_minecraft_stone",
-      "11": "lumium_block",
-      "12": "redmetal_block",
-      "13": "signalum_block",
-      "14": "zinc_block",
-      "15": "manyullyn_block"
-    }
+    "0": {},
+    "1": {},
+    "2": {}
   }
 }

@@ -3,14 +3,12 @@
         "tier": 2
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/osmium"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/osmium"
-        }
-    },
+		"normal": {
+			"item": "mekanism:ingot",
+			"data": 1,
+			"oredict": "ingotOsmium"
+		}
+	},
     "name": {
         "name": "Osmium",
         "translate": false

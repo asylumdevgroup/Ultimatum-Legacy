@@ -3,7 +3,7 @@
 	"crafting_items": {
 		"normal": {
 			"item": "silentgear:netherwood_planks",
-			"data": 0,
+			"data": 0
         }
     },
 	"availability": {
