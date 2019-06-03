@@ -3,14 +3,12 @@
         "tier": 2
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/silver"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/silver"
-        }
-    },
+		"normal": {
+			"item": "contenttweaker:material_part",
+			"data": 36,
+			"oredict": "ingotSilver"
+		}
+	},
     "name": {
         "name": "Silver",
         "translate": false

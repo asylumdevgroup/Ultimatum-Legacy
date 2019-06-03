@@ -3,14 +3,12 @@
         "tier": 2
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/lead"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/lead"
-        }
-    },
+		"normal": {
+			"item": "contenttweaker:material_part",
+			"data": 44,
+			"oredict": "ingotLead"
+		}
+	},
     "name": {
         "name": "Lead",
         "translate": false

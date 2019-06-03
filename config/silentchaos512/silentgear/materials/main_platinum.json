@@ -3,14 +3,12 @@
         "tier": 3
     },
     "crafting_items": {
-        "normal": {
-            "tag": "forge:ingots/platinum"
-        },
-        "small": {
-            "size": 9,
-            "tag": "forge:nuggets/platinum"
-        }
-    },
+		"normal": {
+			"item": "contenttweaker:material_part",
+			"data": 76,
+			"oredict": "ingotPlatinum"
+		}
+	},
     "name": {
         "name": "Platinum",
         "translate": false

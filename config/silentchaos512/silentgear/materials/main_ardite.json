@@ -1,37 +1,70 @@
 {
 	"type": "main",
-	"stats": [
-		{"name": "durability", "value": 1500},
-		{"name": "armor_durability", "value": 1000},
-		{"name": "enchantability", "value": 30},
-		{"name": "harvest_level", "value": 3},
-		{"name": "harvest_speed", "value": 50},
-		{"name": "melee_damage", "value": 9},
-		{"name": "attack_speed", "value": 1.8},
-		{"name": "armor", "value": 15},
-		{"name": "armor_toughness", "value": 4},
-		{"name": "ranged_damage", "value": 4},
-		{"name": "ranged_speed", "value": 0.5}
+	"stats": [{
+			"name": "durability",
+			"value": 1500
+		},
+		{
+			"name": "armor_durability",
+			"value": 30
+		},
+		{
+			"name": "enchantability",
+			"value": 30
+		},
+		{
+			"name": "harvest_level",
+			"value": 3
+		},
+		{
+			"name": "harvest_speed",
+			"value": 7
+		},
+		{
+			"name": "melee_damage",
+			"value": 9
+		},
+		{
+			"name": "attack_speed",
+			"value": 1.8
+		},
+		{
+			"name": "armor",
+			"value": 15
+		},
+		{
+			"name": "armor_toughness",
+			"value": 4
+		},
+		{
+			"name": "ranged_damage",
+			"value": 4
+		},
+		{
+			"name": "ranged_speed",
+			"value": 0.5
+		}
 	],
-	"traits": [
-		{"name": "silentgear:adamant", "level": 3}
-	],
+	"traits": [{
+		"name": "silentgear:adamant",
+		"level": 3
+	}],
 	"crafting_items": {
 		"normal": {
 			"item": "contenttweaker:material_part",
 			"data": 92,
 			"oredict": "ingotArdite"
-        }
-    },
+		}
+	},
 	"display": {
 		"hidden": false,
 		"texture_suffix": "generic_hc",
-		"texture_color": "AA0B0B",
-		"broken_color": "AA0B0B",
-		"name_color": "red"
-		"override_localization": "Red"
+		"texture_color": "E50000",
+		"broken_color": "E50000",
+		"name_color": "red",
+		"override_localization": "Ardite"
 	},
 	"availability": {
-		"enabled": true,
+		"enabled": true
 	}
 }
