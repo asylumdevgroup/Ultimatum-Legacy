@@ -66,3 +66,11 @@ crafttweaker_dump
 local/ftbutilities
 
 config/jei/jei.cfg
+
+config/splash.properties
+
+config/thaumicjei_itemstack_aspects.json
+
+config/InvTweaks/
+
+config/acronym/saved/
