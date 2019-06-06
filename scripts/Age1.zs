@@ -1,5 +1,5 @@
 #Age1.zs
-#By CJWilk, Kaperios, and MCAdventureCity
+#By CJWilk, Kaperios, Revaeb, and MCAdventureCity
 
 #Imports
 import mods.artisanworktables.builder.RecipeBuilder;
@@ -111,6 +111,10 @@ recipes.addShaped("bucket", <minecraft:bucket>, [
     [<ore:ingotSteel>, null, <ore:ingotSteel>],
     [null, <ore:ingotSteel>, null]
 ]);
+
+#Fix Silent Gear's Phantom Lights
+<silentgear:phantom_light>.displayName = "Phantom Light";
+
 #Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless("flintAndSteel", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
