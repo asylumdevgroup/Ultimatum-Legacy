@@ -1,11 +1,61 @@
 #Age3.zs
-#By MCAdventureCity
+#By MCAdventureCity and Revaeb
 
 #Imports
 
 import mods.calculator.basic;
 import mods.calculator.scientific;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.astralsorcery.Altar;
+
+#Shifting Star
+mods.astralsorcery.Altar.addAttunementAltarRecipe("internal/altar/tool_shiftstar", <astralsorcery:itemshiftingstar>, 500, 200, [
+	<astralsorcery:blockmarble:6>, <ore:dustAstralStarmetal>, <astralsorcery:blockmarble:6>,
+	<aether_legacy:ambrosium_shard>, <liquid:astralsorcery.liquidstarlight>, <aether_legacy:ambrosium_shard>,
+	<ore:blockEnchantedGravitite>, <ore:dustAstralStarmetal>, <ore:blockEnchantedGravitite>,
+	<ore:gemAquamarine>, <ore:gemAquamarine>,
+	<calculator:enddiamond>, <calculator:enddiamond>
+]);
+
+#Attunement Altar
+mods.astralsorcery.Altar.addAttunementAltarRecipe("attunementaltar", <astralsorcery:blockattunementaltar>, 1000, 200, [
+	<calculator:firediamond>, <ore:celestialCrystal>, <calculator:firediamond>,
+	<ore:ingotAstralStarmetal>, <astralsorcery:itemshiftingstar>, <ore:ingotAstralStarmetal>,
+	<ore:ingotZorrasteel>, <astralsorcery:blockattunementrelay>, <ore:ingotZorrasteel>,
+	<ore:gemZanite>, <ore:gemZanite>,
+	<ore:gemAquamarine>, <ore:gemAquamarine>
+]);
+
+#Ritual Pedestal
+mods.astralsorcery.Altar.addAttunementAltarRecipe("internal/altar/ritualpedestal", <astralsorcery:blockritualpedestal>, 1500, 200, [
+	<ore:attunedCrystal>, <immersiveengineering:metal_decoration0:4>, <ore:attunedCrystal>,
+	<astralsorcery:blockmarble:2>, <liquid:astralsorcery.liquidstarlight>, <astralsorcery:blockmarble:2>,
+	<calculator:electricdiamond>, <astralsorcery:blockattunementrelay>, <calculator:electricdiamond>,
+	<ore:ingotAstralStarmetal>, <ore:ingotAstralStarmetal>,
+	<aether_legacy:holystone_brick>, <aether_legacy:holystone_brick>
+]);
+
+#Celestial Altar
+mods.astralsorcery.Altar.addAttunementAltarRecipe("internal/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 2500, 500, [
+	<ore:gemAquamarine>, <astralsorcery:itemtunedcelestialcrystal>.withEmptyTag(), <ore:gemAquamarine>,
+	<ore:blockZanite>, <immersiveengineering:metal_decoration0:5>, <ore:blockZanite>,
+	<ore:ingotAstralStarmetal>, <contenttweaker:zorrasteel_casing>, <ore:ingotAstralStarmetal>,
+	<astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
+	<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>
+]);
+
+#Starlight Infuser
+mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/starlightinfuser", <astralsorcery:blockstarlightinfuser>, 2500, 300, [
+	<prodigytech:primordium>, <ore:ingotAstralStarmetal>, <prodigytech:primordium>,
+	<ore:gemAquamarine>, <astralsorcery:itemshiftingstar>, <ore:gemAquamarine>,
+	<ore:attunedCrystal>, <calculator:material:1>, <ore:attunedCrystal>,
+	<ore:blockZanite>, <ore:blockZanite>,
+	<immersiveengineering:wooden_device0:7>, <immersiveengineering:wooden_device0:7>,
+	<astralsorcery:blockmarble:2>, <astralsorcery:blockmarble:2>,
+	<astralsorcery:blockmarble:2>, <astralsorcery:blockmarble:2>,
+	<astralsorcery:blockmarble:2>, <astralsorcery:blockmarble:2>,
+	<astralsorcery:blockmarble:2>, <astralsorcery:blockmarble:2>
+]);
 
 #Enriched Gold to Sci Calc
 mods.calculator.basic.removeRecipe(<calculator:enrichedgold>);
