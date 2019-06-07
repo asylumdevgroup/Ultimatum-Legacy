@@ -90,7 +90,7 @@ recipes.addShaped("atomicBinder", <calculator:atomicbinder> * 4, [
 ]);
 
 #Iridescent Altar
-mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/upgrade_tier4", <astralsorcery:blockaltar:3>, 3000, 600, [
+mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/upgrade_tier4", <astralsorcery:blockaltar:3>, 4000, 600, [
 	<ore:plasticMagenta>, <astralsorcery:blocklens>.withEmptyTag(), <ore:plasticMagenta>,
 	<ore:ingotFiery>, <astralsorcery:itemtunedcelestialcrystal>.withEmptyTag(), <ore:ingotFiery>,
 	<ore:plasticMagenta>, <ore:blockZanite>, <ore:plasticMagenta>,

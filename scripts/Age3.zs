@@ -57,6 +57,45 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/starlightin
 	<astralsorcery:blockmarble:2>, <astralsorcery:blockmarble:2>
 ]);
 
+#Stellar Refraction Table
+mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/drawingtable", <astralsorcery:blockmapdrawingtable>, 2000, 300, [
+	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:4>,
+	<ore:ingotAstralStarmetal>, null, <ore:ingotAstralStarmetal>,
+	<astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,
+	<ore:dye>, <ore:dye>,
+	<astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,
+	<aether_legacy:quicksoil_glass>, <aether_legacy:quicksoil_glass>,
+	<twilightforest:twilight_log>, <twilightforest:twilight_log>,
+	<astralsorcery:blockinfusedwood:2>, <astralsorcery:blockinfusedwood:2>,
+	<aether_legacy:ambrosium_shard>, <aether_legacy:ambrosium_shard>
+]);
+
+#Tree Beacon
+mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/treebeacon", <astralsorcery:blocktreebeacon>, 1000, 400, [
+	<aether_legacy:crystal_leaves>, <astralsorcery:itemcraftingcomponent:4>, <aether_legacy:crystal_leaves>,
+	<aether_legacy:crystal_leaves>, <twilightforest:twilight_sapling:*>, <aether_legacy:crystal_leaves>,
+	<aether_legacy:crystal_leaves>, <liquid:astralsorcery.liquidstarlight>, <aether_legacy:crystal_leaves>,
+	null, null,
+	<astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>,
+	null, null,
+	null, null,
+	null, null,
+	<astralsorcery:blockmarble:6>, <astralsorcery:blockmarble:6>
+]);
+
+#Augmented Sextant
+mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/sextant/upgrade", <astralsorcery:itemsextant>.withTag({astralsorcery: {advanced: 1 as byte}}), 2500, 500, [
+	<ore:ingotAstralStarmetal>, <astralsorcery:itemcoloredlens:6>, <ore:ingotAstralStarmetal>,
+	<ore:ingotAstralStarmetal>, <astralsorcery:itemcoloredlens:6>, <ore:ingotAstralStarmetal>,
+	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemsextant>.withEmptyTag(), <astralsorcery:itemcraftingcomponent:4>,
+	<twilightforest:naga_stone:1>, <twilightforest:naga_stone:1>,
+	<twilightforest:naga_stone:1>, <twilightforest:naga_stone:1>,
+	<aether_legacy:aether_log:1>, <aether_legacy:aether_log:1>,
+	<aether_legacy:skyroot_stick>, <aether_legacy:skyroot_stick>,
+	<aether_legacy:skyroot_stick>, <aether_legacy:skyroot_stick>,
+	<aether_legacy:aether_log:1>, <aether_legacy:aether_log:1>
+]);
+
 #Enriched Gold to Sci Calc
 mods.calculator.basic.removeRecipe(<calculator:enrichedgold>);
 mods.calculator.scientific.addRecipe(<ore:ingotGold>, <minecraft:redstone>, <calculator:enrichedgold> * 4);
