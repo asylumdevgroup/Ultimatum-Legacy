@@ -7,6 +7,9 @@ import mods.calculator.basic;
 import mods.calculator.scientific;
 import mods.calculator.atomic;
 import mods.astralsorcery.Altar;
+import mods.actuallyadditions.AtomicReconstructor;
+import mods.enderio.AlloySmelter;
+import mods.thermalexpansion.InductionSmelter;
 import mods.jei.JEI.removeAndHide;
 import crafttweaker.item.IItemStack;
 
@@ -24,6 +27,24 @@ var removal = [
 for item in removal {
     mods.jei.JEI.removeAndHide(item);
 }
+
+#No Simple Machines + Chassis (-Stirling Generator)
+mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
+mods.jei.JEI.removeAndHide(<enderio:item_material>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:69>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_sag_mill>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_crafter>);
+mods.jei.JEI.removeAndHide(<enderio:block_solar_panel>);
+
+#No Duplicate Dusts
+<ore:dustCopper>.remove(<enderio:item_material:26>);
+<ore:dustTin>.remove(<enderio:item_material:27>);
+<ore:dustLapis>.remove(<enderio:item_material:32>);
+<ore:dustNetherQuartz>.remove(<enderio:item_material:33>); 
+mods.jei.JEI.hide(<enderio:item_material:26>);
+mods.jei.JEI.hide(<enderio:item_material:27>);
+mods.jei.JEI.hide(<enderio:item_material:32>);
+mods.jei.JEI.hide(<enderio:item_material:33>);
 
 #Magneticraft Fabric Mesh (Fixes conflict with ExtraPlanets mesh)
 recipes.remove(<magneticraft:crafting:6>);
@@ -102,7 +123,150 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("internal/altar/upgrade_tie
 	<ore:ingotIronwood>, <ore:ingotIronwood>
 ]);
 
-#PneumaticCraft Refinery (End of Age 4)
+#AA Iron Casing
+recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.addShaped("aaIronCasing", <actuallyadditions:block_misc:9>, [
+    [<ore:plateIron>, <ore:plasticLightGray>, <ore:plateIron>], 
+    [<ore:plasticLightGray>, <ore:gemQuartzBlack>, <ore:plasticLightGray>], 
+    [<ore:plateIron>, <ore:plasticLightGray>, <ore:plateIron>]
+]);
+
+#Atomic Reconstructor
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+recipes.addShaped("atomicReconstructor", <actuallyadditions:block_atomic_reconstructor>, [
+	[<ore:ingotDarkSteel>, <ore:dustRedstone>, <ore:ingotDarkSteel>],
+	[<ore:dustRedstone>, <actuallyadditions:block_misc:9>, <ore:dustRedstone>],
+	[<ore:ingotDarkSteel>, <ore:dustRedstone>, <ore:ingotDarkSteel>]
+]);
+
+#Grains of Infinity
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<enderio:item_material:20>, <ore:dustStone>, 150);
+
+#Basic Capacitor
+recipes.remove(<enderio:item_basic_capacitor>);
+recipes.addShaped("basicCapacitor", <enderio:item_basic_capacitor>, [
+    [<ore:nuggetGold>, <pneumaticcraft:plastic:7>, <ore:nuggetGold>], 
+    [<enderio:item_capacitor_grainy>, <ore:ingotCopper>, <enderio:item_capacitor_grainy>], 
+    [<ore:nuggetGold>, <pneumaticcraft:plastic:7>, <ore:nuggetGold>]
+]);
+
+#Industrial Machine Chassis
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:1>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material:51>, <enderio:item_material>);
+recipes.addShaped("machineChassis", <enderio:item_material:1>, [
+    [<ore:plateIron>, <minecraft:iron_bars>, <ore:plateIron>], 
+    [<minecraft:iron_bars>, <enderio:item_basic_capacitor>, <minecraft:iron_bars>], 
+    [<ore:plateIron>, <minecraft:iron_bars>, <ore:plateIron>]
+]);
+
+#Change all the AA Crystals to require EnderIO Alloys
+#Restonia
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal>, <ore:ingotRedstoneAlloy>, 40);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:block_crystal>, <ore:blockRedstoneAlloy>, 400);
+
+#Palis
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:1>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:1>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:1>, <ore:ingotEnderiumBase>, 40);
+
+#Diamatine
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:2>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:2>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:2>, <ore:itemPulsatingCrystal>, 60);
+
+#Void
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:3>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:3>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:3>, <ore:ingotDarkSteel>, 60);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:block_crystal:3>, <ore:blockDarkSteel>, 600);
+
+#Emeradic
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:4>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:4>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:4>, <ore:itemVibrantCrystal>, 100);
+
+#Enori
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:item_crystal:5>);
+mods.actuallyadditions.AtomicReconstructor.removeRecipe(<actuallyadditions:block_crystal:5>);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:item_crystal:5>, <ore:ingotConstructionAlloy>, 80);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:block_crystal:5>, <ore:blockConstructionAlloy>, 800);
+
+#Conduit Binder
+furnace.remove(<enderio:item_material:4>);
+mods.enderio.AlloySmelter.addRecipe(<enderio:item_material:4> * 16, [<ore:itemBinderComposite>, <actuallyadditions:item_misc:7>, <ore:itemBinderComposite>]);
+
+#Soul Dye Blend
+recipes.remove(<enderio:item_material:52>);
+recipes.addShaped("soulBlend", <enderio:item_material:52>, [
+	[<ore:dustSoularium>, <actuallyadditions:item_crystal_shard:5>, <enderio:item_material:49>],
+	[<actuallyadditions:item_crystal_shard:5>, <enderio:item_material:50>, <actuallyadditions:item_crystal_shard:5>],
+	[<enderio:item_material:49>, <actuallyadditions:item_crystal_shard:5>, <ore:dustSoularium>]
+]);
+
+#Soul Machine Chassis
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:53>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material:52>, <enderio:item_material>);
+mods.enderio.AlloySmelter.addRecipe(<enderio:item_material:53>, [<enderio:item_material:52>, <enderio:item_material:1>]);
+
+#End Steel Chassis
+recipes.remove(<enderio:item_material:66>);
+recipes.addShaped("endChassis", <enderio:item_material:66>, [
+	[<ore:ingotEndSteel>, <enderio:block_end_iron_bars>, <ore:ingotEndSteel>],
+	[<ore:skullZombieElectrode>, <ore:itemEnderCrystal>, <ore:skullZombieElectrode>],
+	[<ore:ingotEndSteel>, <enderio:block_end_iron_bars>, <ore:ingotEndSteel>]
+]);
+
+#Profiling Bench
+recipes.remove(<rockhounding_chemistry:machines_a:11>);
+recipes.addShaped("profilingBench", <rockhounding_chemistry:machines_a:11>.withTag({Energy: 0, Fuel: 0}), [
+    [<ore:ingotElectricalSteel>, <minecraft:piston>, <ore:ingotElectricalSteel>], 
+    [<ore:ingotElectricalSteel>, <enderio:item_material:54>, <ore:ingotElectricalSteel>], 
+    [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]
+]);
+
+#Sizer Controller
+recipes.remove(<rockhounding_chemistry:machines_a>);
+recipes.addShaped("sizerController", <rockhounding_chemistry:machines_a>, [
+	[<rockhounding_chemistry:misc_items:5>, <ore:hopper>, <rockhounding_chemistry:misc_items:5>], 
+	[<rockhounding_chemistry:misc_items:5>, <rockhounding_chemistry:misc_items:1>, <rockhounding_chemistry:misc_items:5>], 
+	[<actuallyadditions:item_crystal:5>, <ore:itemEnhancedMachineChassi>, <actuallyadditions:item_crystal:5>]
+]);
+
+#Leaching Controller
+recipes.remove(<rockhounding_chemistry:machines_c:3>);
+recipes.addShaped("leachingController", <rockhounding_chemistry:machines_c:3>, [
+	[<actuallyadditions:item_crystal:5>, <ore:hopper>, <actuallyadditions:item_crystal:5>], 
+	[<rockhounding_chemistry:misc_items:7>, <rockhounding_chemistry:misc_items:10>, <rockhounding_chemistry:misc_items:7>], 
+	[<ore:skullZombieElectrode>, <rockhounding_chemistry:misc_blocks_a:3>, <ore:skullZombieElectrode>]
+]);
+
+#Extraction Controller
+recipes.remove(<rockhounding_chemistry:machines_c:7>);
+recipes.addShaped("extractionController", <rockhounding_chemistry:machines_c:7>, [
+	[<rockhounding_chemistry:misc_items:5>, <rockhounding_chemistry:misc_items:11>, <rockhounding_chemistry:misc_items:5>], 
+	[<rockhounding_chemistry:misc_items:7>, <rockhounding_chemistry:misc_items:1>, <rockhounding_chemistry:misc_items:7>], 
+	[<rockhounding_chemistry:misc_items:5>, <ore:itemMachineChassi>, <rockhounding_chemistry:misc_items:5>]
+]);
+
+#Metal Alloyer
+recipes.remove(<rockhounding_chemistry:machines_d>);
+recipes.addShaped("metalAlloyer", <rockhounding_chemistry:machines_d>, [
+	[<actuallyadditions:block_misc:9>, <ore:hopper>, <actuallyadditions:block_misc:9>], 
+	[<rockhounding_chemistry:misc_items:10>, <rockhounding_chemistry:misc_items:11>, <rockhounding_chemistry:misc_items:10>], 
+	[<rockhounding_chemistry:misc_blocks_a>, <ore:itemMachineChassi>, <rockhounding_chemistry:misc_blocks_a>]
+]);
+
+#Empowerer(End of Age 4?)
+recipes.remove(<actuallyadditions:block_empowerer>);
+recipes.addShaped("empowerer", <actuallyadditions:block_empowerer>, [
+	[<ore:platePewter>, <actuallyadditions:item_crystal>, <ore:platePewter>], 
+	[<actuallyadditions:block_misc:9>, <actuallyadditions:item_battery_double>.withEmptyTag(), <actuallyadditions:block_misc:9>], 
+	[<ore:itemUnsouledMachineChassi>, <actuallyadditions:block_display_stand>, <ore:itemUnsouledMachineChassi>]
+]);
+
+#PneumaticCraft Refinery
 recipes.remove(<pneumaticcraft:refinery>);
 recipes.addShaped("refinery", <pneumaticcraft:refinery>, [
     [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>], 
@@ -110,7 +274,7 @@ recipes.addShaped("refinery", <pneumaticcraft:refinery>, [
     [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
 ]);
 
-#Plastic Mixer (Also End of Age 4)
+#Plastic Mixer
 recipes.remove(<pneumaticcraft:plastic_mixer>);
 recipes.addShaped("plasticMixer", <pneumaticcraft:plastic_mixer>, [
     [<pneumaticcraft:ingot_iron_compressed>, <sonarcore:stableglass>, <pneumaticcraft:ingot_iron_compressed>], 
