@@ -15,6 +15,42 @@
         "prodigytech:introduction/explosion_furnace_advanced"
       ],
       "completedManualQuests": []
+    },
+    "deepmoblearning:book": {
+      "viewedEntries": [
+        "deepmoblearning:0_introduction/0_introduction",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:0_introduction/1_data",
+        "deepmoblearning:1_machines/0_simulation_chamber",
+        "deepmoblearning:1_machines/1_matter",
+        "deepmoblearning:1_machines/2_loot_fabricator",
+        "deepmoblearning:2_trials/0_trial_key",
+        "deepmoblearning:2_trials/1_trials",
+        "deepmoblearning:2_trials/2_affixes",
+        "deepmoblearning:3_system_malfunction/0_system_glitches",
+        "deepmoblearning:3_system_malfunction/1_glitch_fragments",
+        "deepmoblearning:3_system_malfunction/2_glitch_metal",
+        "deepmoblearning:3_system_malfunction/3_equipment",
+        "deepmoblearning:4_bm/0_digital_agonizer",
+        "deepmoblearning:4_bm/1_altar_linker"
+      ],
+      "bookmarks": [],
+      "history": [
+        "deepmoblearning:2_trials/0_trial_key",
+        "deepmoblearning:4_bm/1_altar_linker",
+        "deepmoblearning:4_bm/0_digital_agonizer",
+        "deepmoblearning:3_system_malfunction/3_equipment",
+        "deepmoblearning:3_system_malfunction/2_glitch_metal",
+        "deepmoblearning:3_system_malfunction/1_glitch_fragments",
+        "deepmoblearning:3_system_malfunction/0_system_glitches",
+        "deepmoblearning:2_trials/2_affixes",
+        "deepmoblearning:2_trials/1_trials",
+        "deepmoblearning:1_machines/2_loot_fabricator",
+        "deepmoblearning:1_machines/1_matter",
+        "deepmoblearning:1_machines/0_simulation_chamber",
+        "deepmoblearning:0_introduction/2_data_models"
+      ],
+      "completedManualQuests": []
     }
   }
 }

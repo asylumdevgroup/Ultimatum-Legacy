@@ -41,7 +41,10 @@ var titanium = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("
 
 //Material System - Nether Ores
 var cobalt = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(1925816).build();
-var ardite = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(12137751).build();  
+var ardite = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(12137751).build(); 
+
+//Material System - Space Ores
+ 
 
 //Material System - Alloys
 var steel = mods.contenttweaker.MaterialSystem.getMaterialBuilder().setName("Steel").setColor(8026746).build();
