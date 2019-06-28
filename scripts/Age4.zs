@@ -10,6 +10,7 @@ import mods.astralsorcery.Altar;
 import mods.actuallyadditions.AtomicReconstructor;
 import mods.enderio.AlloySmelter;
 import mods.thermalexpansion.InductionSmelter;
+import mods.rockhounding_chemistry.LabBlender;
 import mods.jei.JEI.removeAndHide;
 import crafttweaker.item.IItemStack;
 
@@ -45,6 +46,10 @@ mods.jei.JEI.hide(<enderio:item_material:26>);
 mods.jei.JEI.hide(<enderio:item_material:27>);
 mods.jei.JEI.hide(<enderio:item_material:32>);
 mods.jei.JEI.hide(<enderio:item_material:33>);
+
+#Fix the Chloride Bearing Compound, since Unidict screws with RM:C Salt
+mods.rockhounding_chemistry.LabBlender.remove(<rockhounding_chemistry:chemical_items:6>);
+mods.rockhounding_chemistry.LabBlender.add([<mekanism:salt>], <rockhounding_chemistry:chemical_items:6>);
 
 #Magneticraft Fabric Mesh (Fixes conflict with ExtraPlanets mesh)
 recipes.remove(<magneticraft:crafting:6>);
