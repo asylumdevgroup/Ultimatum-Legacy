@@ -231,38 +231,6 @@ recipes.addShaped("profilingBench", <rockhounding_chemistry:machines_a:11>.withT
     [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]
 ]);
 
-#Sizer Controller
-recipes.remove(<rockhounding_chemistry:machines_a>);
-recipes.addShaped("sizerController", <rockhounding_chemistry:machines_a>, [
-	[<rockhounding_chemistry:misc_items:5>, <ore:hopper>, <rockhounding_chemistry:misc_items:5>], 
-	[<rockhounding_chemistry:misc_items:5>, <rockhounding_chemistry:misc_items:1>, <rockhounding_chemistry:misc_items:5>], 
-	[<actuallyadditions:item_crystal:5>, <ore:itemEnhancedMachineChassi>, <actuallyadditions:item_crystal:5>]
-]);
-
-#Leaching Controller
-recipes.remove(<rockhounding_chemistry:machines_c:3>);
-recipes.addShaped("leachingController", <rockhounding_chemistry:machines_c:3>, [
-	[<actuallyadditions:item_crystal:5>, <ore:hopper>, <actuallyadditions:item_crystal:5>], 
-	[<rockhounding_chemistry:misc_items:7>, <rockhounding_chemistry:misc_items:10>, <rockhounding_chemistry:misc_items:7>], 
-	[<ore:skullZombieElectrode>, <rockhounding_chemistry:misc_blocks_a:3>, <ore:skullZombieElectrode>]
-]);
-
-#Extraction Controller
-recipes.remove(<rockhounding_chemistry:machines_c:7>);
-recipes.addShaped("extractionController", <rockhounding_chemistry:machines_c:7>, [
-	[<rockhounding_chemistry:misc_items:5>, <rockhounding_chemistry:misc_items:11>, <rockhounding_chemistry:misc_items:5>], 
-	[<rockhounding_chemistry:misc_items:7>, <rockhounding_chemistry:misc_items:1>, <rockhounding_chemistry:misc_items:7>], 
-	[<rockhounding_chemistry:misc_items:5>, <ore:itemMachineChassi>, <rockhounding_chemistry:misc_items:5>]
-]);
-
-#Metal Alloyer
-recipes.remove(<rockhounding_chemistry:machines_d>);
-recipes.addShaped("metalAlloyer", <rockhounding_chemistry:machines_d>, [
-	[<actuallyadditions:block_misc:9>, <ore:hopper>, <actuallyadditions:block_misc:9>], 
-	[<rockhounding_chemistry:misc_items:10>, <rockhounding_chemistry:misc_items:11>, <rockhounding_chemistry:misc_items:10>], 
-	[<rockhounding_chemistry:misc_blocks_a>, <ore:itemMachineChassi>, <rockhounding_chemistry:misc_blocks_a>]
-]);
-
 #Empowerer(End of Age 4?)
 recipes.remove(<actuallyadditions:block_empowerer>);
 recipes.addShaped("empowerer", <actuallyadditions:block_empowerer>, [
